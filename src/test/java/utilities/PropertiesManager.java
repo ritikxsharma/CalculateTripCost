@@ -5,16 +5,11 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class PropertiesManager {
-	private Properties properties;
 	
-	public PropertiesManager() throws IOException {
-		this.properties = loadProperties();
-	}
-	
-	public Properties loadProperties() throws IOException {
-		properties = new Properties();
+	public static Properties loadProperties(String fileName) throws IOException {
+		Properties properties = new Properties();
 		
-		String relativePath = "/src/test/resources/utilities/config.properties";
+		String relativePath = "/src/test/resources/utilities/" + fileName;
 		String directoryPath = System.getProperty("user.dir");
 		
 		FileInputStream inputStream = new FileInputStream(directoryPath + relativePath);
@@ -24,7 +19,7 @@ public class PropertiesManager {
 		return properties;
 	}
 	
-	public String getProperty(String property) {
+	public static String getProperty(Properties properties, String property) {
 		return properties.getProperty(property);
 	}
 	

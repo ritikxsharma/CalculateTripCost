@@ -22,7 +22,7 @@ public class DriverManager {
 	}
 	
 	public void setUrl(String url) {
-		driver.get(url);
+		driver.navigate().to(url);
 	}
 	
 	public void setImplicitWait(int seconds) {

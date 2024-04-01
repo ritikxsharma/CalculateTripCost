@@ -3,17 +3,27 @@ package tests;
 import java.io.IOException;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.Properties;
+
 import org.testng.Assert;
 import org.testng.annotations.*;
 import pages.HomePage;
+import utilities.PropertiesManager;
 
 public class HomePageTest extends BaseTest{
 	
+	private Properties properties;
 	private HomePage homePage;
+	
+	@BeforeClass
+	public void loading() throws IOException {
+		properties = PropertiesManager.loadProperties("homePageTest.properties");
+		homePage = new HomePage(driver);
+	}
 
 	@Test(priority = 1, groups = "smokeTest")
 	public void testOpenBrowser() {
-		String expTitle = propertiesManager.getProperty("website.title");
+		String expTitle = PropertiesManager.getProperty(properties, "website.title");
 		String actTitle = driver.getTitle();
 
 		Assert.assertEquals(actTitle, expTitle, "Failed to load the correct website.");
@@ -21,10 +31,7 @@ public class HomePageTest extends BaseTest{
 
 	@Test(priority = 2, groups = "smokeTest")
 	public void testSelectedDestination() throws IOException {
-		
-		homePage = new HomePage(driver);
-		
-		String expDestination = propertiesManager.getProperty("expected.destination");
+		String expDestination = PropertiesManager.getProperty(properties, "expected.destination");
 		homePage.selectDestination(expDestination);
 
 		String actDestination = homePage.destinationInputElement.getAttribute("value");
@@ -57,7 +64,10 @@ public class HomePageTest extends BaseTest{
 	
 	@Test(priority = 4)
 	public void testGuestsAndRooms() {
-		
+		int expRooms = Integer.parseInt(PropertiesManager.getProperty(properties, "expected.rooms"));
+		int expAdults = Integer.parseInt(PropertiesManager.getProperty(properties, "expected.adults"));
+		int expChildren = Integer.parseInt(PropertiesManager.getProperty(properties, "expected.children"));
+		homePage.selectGuests(expRooms, expAdults, expChildren);
 	}
 	
 	@Test(priority = 5, groups = "smokeTest")

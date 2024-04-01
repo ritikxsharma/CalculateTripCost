@@ -1,6 +1,8 @@
 package tests;
 
 import java.io.IOException;
+import java.util.Properties;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestResult;
 import org.testng.annotations.*;
@@ -10,8 +12,8 @@ import utilities.PropertiesManager;
 import utilities.ScreenshotManager;
 
 public class BaseTest {
+	private Properties properties;
 	protected static WebDriver driver;
-	protected static PropertiesManager propertiesManager;
 	protected DriverManager driverManager;
 	protected ScreenshotManager screenshotManager;
 	protected String baseUrl;
@@ -19,8 +21,8 @@ public class BaseTest {
 	@BeforeTest
 	public void setUp() throws IOException{
 		ExtentReportManager.startReport();
-		propertiesManager = new PropertiesManager();
-		baseUrl = propertiesManager.getProperty("website.url");		
+		properties = PropertiesManager.loadProperties("config.properties");
+		baseUrl = PropertiesManager.getProperty(properties, "website.url");
 		
 		driverManager = new DriverManager();
 		driver = DriverManager.driver;
@@ -32,7 +34,6 @@ public class BaseTest {
 	
 	@AfterMethod
 	public void getResult(ITestResult result) {
-		
 		screenshotManager = new ScreenshotManager(driver, result.getName());
 		ExtentReportManager.getResult(result);
 	}

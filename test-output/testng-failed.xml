@@ -6,21 +6,24 @@
       <class name="tests.HotelsSearchPageTest">
         <methods>
           <include name="getResult"/>
-          <include name="validateTitle"/>
+          <include name="loading"/>
+          <include name="displayPrices"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- tests.HotelsSearchPageTest -->
-      <class name="tests.HomePageTest">
+      <class name="tests.CruisesSearchPageTest">
         <methods>
           <include name="getResult"/>
-          <include name="testSelectedDestination"/>
-          <include name="testCheckInDate"/>
-          <include name="testOpenBrowser"/>
+          <include name="testCruiseSelection"/>
+          <include name="getShipDetails"/>
+          <include name="loading"/>
+          <include name="testWebPage"/>
+          <include name="findShipDetails"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- tests.HomePageTest -->
+      </class> <!-- tests.CruisesSearchPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

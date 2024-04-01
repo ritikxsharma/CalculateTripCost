@@ -35,6 +35,15 @@ public class HomePage extends BasePage {
 	@FindBy(css = "div.search-btn-wrap")
 	WebElement searchButtonElement;
 	
+	@FindBy(css = "div.child-kid:nth-child(1)")
+	WebElement roomsElement;
+	
+	@FindBy(css = "div.child-kid:nth-child(2)")
+	WebElement adultsElement;
+	
+	@FindBy(css = "div.child-kid:nth-child(3)")
+	WebElement childrenElement;
+	
 	public HomePage(WebDriver driver) throws IOException{
 		super(driver);
 		PageFactory.initElements(driver, this);
@@ -75,39 +84,32 @@ public class HomePage extends BasePage {
 		}
 	}
 	
-	public void selectGuests(int expRooms, int expGuests, int expChildren) {
-		int exp_amt = 4;
-		 
-		while (true) {
- 
-			String amt = driver
-					.findElement(
-							By.xpath("//*[@id=\"searchBoxCon\"]/div/div/ul/li[3]/div/div[3]/div[1]/div[2]/div/span[2]"))
-					.getText();
- 
-			int act_amt = Integer.parseInt(amt);
- 
-			if (exp_amt == act_amt) {
-				break;
-			}
- 
-			else if (exp_amt > act_amt) {
-				driver.findElement(
-						By.xpath("//*[@id=\"searchBoxCon\"]/div/div/ul/li[3]/div/div[3]/div[1]/div[2]/div/span[3]/i"))
-						.click();
- 
-			}
- 
-			else {
-				driver.findElement(
-						By.xpath("//*[@id=\"searchBoxCon\"]/div/div/ul/li[3]/div/div[3]/div[1]/div[2]/div/span[1]/i"))
-						.click();
-			}
-		}
+	public void selectGuests(int expRooms, int expAdults, int expChildren) {
+		
+		selectCount(roomsElement, expRooms);
+		selectCount(adultsElement, expAdults);
+		selectCount(childrenElement, expChildren);
 	}
 	
 	public void clickSearch() {
 		searchButtonElement.click();
+	}
+	
+	private void selectCount(WebElement element, int expCount) {
+		while(true) {
+			String str_actCount = element.findElement(By.cssSelector("span.count")).getText();
+			int actCount = Integer.parseInt(str_actCount);
+			
+			if(expCount == actCount) {
+				break;
+			}
+			else if(expCount > actCount) {
+				element.findElement(By.cssSelector("i.u-icon-ic_plus")).click();;
+			}
+			else {
+				element.findElement(By.cssSelector("i.u-icon_ic_minus")).click();;
+			}
+		}
 	}
 	
 }
