@@ -55,7 +55,9 @@ public class HomePage extends BasePage {
 	
 	public void selectDestination(String destination) {
 		destinationInputElement.sendKeys(destination);
-		driver.findElement(By.id("825")).click();
+		//driver.findElement(By.id("825")).click();
+		
+		driver.findElement(By.cssSelector("div#dropList div.associative-item:nth-child(1)")).click();
 	}
 	
 	public void selectDate(LocalDate date) {

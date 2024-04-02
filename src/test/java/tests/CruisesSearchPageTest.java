@@ -19,7 +19,7 @@ public class CruisesSearchPageTest extends BaseTest{
 	@BeforeClass
 	public void loading() throws IOException {
 		cruisesSearchPage = new CruisesSearchPage(driver);
-		properties = PropertiesManager.loadProperties("CruisesSearchPageTest.properties");
+		properties = PropertiesManager.loadProperties("CruisesSearchPage.properties");
 	}
 	
 	@Test(priority = 1)

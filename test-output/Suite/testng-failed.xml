@@ -7,23 +7,13 @@
         <methods>
           <include name="getResult"/>
           <include name="loading"/>
-          <include name="displayPrices"/>
+          <include name="validateTitle"/>
+          <include name="selectPropertyType"/>
+          <include name="selectAmenty"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- tests.HotelsSearchPageTest -->
-      <class name="tests.CruisesSearchPageTest">
-        <methods>
-          <include name="getResult"/>
-          <include name="testCruiseSelection"/>
-          <include name="getShipDetails"/>
-          <include name="loading"/>
-          <include name="testWebPage"/>
-          <include name="findShipDetails"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-        </methods>
-      </class> <!-- tests.CruisesSearchPageTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
