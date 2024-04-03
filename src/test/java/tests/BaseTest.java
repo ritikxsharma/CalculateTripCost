@@ -20,7 +20,7 @@ public class BaseTest {
 	
 	@BeforeTest
 	@Parameters("browser")
-	public void setUp(String browser) throws IOException{
+	public void setUp(@Optional("chrome") String browser) throws IOException{
 		properties = PropertiesManager.loadProperties("tests.properties");
 		baseUrl = PropertiesManager.getProperty(properties, "website.url");
 		

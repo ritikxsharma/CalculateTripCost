@@ -5,11 +5,12 @@
     <classes>
       <class name="tests.HotelsSearchPageTest">
         <methods>
+          <include name="testHotelSearchPageTitle"/>
           <include name="getResult"/>
+          <include name="selectAmenity"/>
           <include name="loading"/>
-          <include name="validateTitle"/>
           <include name="selectPropertyType"/>
-          <include name="selectAmenty"/>
+          <include name="beforeMethod"/>
           <include name="sortHotels"/>
           <include name="tearDown"/>
           <include name="setUp"/>
@@ -19,10 +20,12 @@
         <methods>
           <include name="getResult"/>
           <include name="testSearchButton"/>
+          <include name="testCheckOutDate"/>
           <include name="loading"/>
+          <include name="beforeMethod"/>
           <include name="testSelectedDestination"/>
           <include name="testCheckInDate"/>
-          <include name="testOpenBrowser"/>
+          <include name="testHomePageTitle"/>
           <include name="testGuestsAndRooms"/>
           <include name="tearDown"/>
           <include name="setUp"/>

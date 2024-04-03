@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="tests.HotelsSearchPageTest">
+        <methods>
+          <include name="testHotelSearchPageTitle"/>
+          <include name="getResult"/>
+          <include name="selectAmenity"/>
+          <include name="loading"/>
+          <include name="selectPropertyType"/>
+          <include name="beforeMethod"/>
+          <include name="moveToHomePage"/>
+          <include name="sortHotels"/>
+          <include name="tearDown"/>
+          <include name="getHotelsDetails"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.HotelsSearchPageTest -->
+      <class name="tests.CruisesSearchPageTest">
+        <methods>
+          <include name="moveToCruisePage"/>
+          <include name="getResult"/>
+          <include name="testCruiseSelection"/>
+          <include name="getShipDetails"/>
+          <include name="loading"/>
+          <include name="beforeMethod"/>
+          <include name="findShipDetails"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CruisesSearchPageTest -->
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="testSearchButton"/>
+          <include name="testCheckOutDate"/>
+          <include name="loading"/>
+          <include name="beforeMethod"/>
+          <include name="testSelectedDestination"/>
+          <include name="testCheckInDate"/>
+          <include name="testHomePageTitle"/>
+          <include name="testGuestsAndRooms"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
