@@ -1,5 +1,7 @@
 package utilities;
 
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.ITestResult;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -10,9 +12,15 @@ public class ExtentReportManager {
 	private static ExtentReports extentReport;
 	private static ExtentTest test;
 	
-	public static void startReport() {
+	public static void startReport(WebDriver driver) {
 		String directoryPath = System.getProperty("user.dir");
-		String relativePath = "/src/test/resources/test-results/reports/report.html";
+		String relativePath = "/src/test/resources/test-results/reports";
+		
+		if(driver.getClass().getName().equals(ChromeDriver.class.getName())) {
+			relativePath += "/chrome-report.html";
+		}else {
+			relativePath += "/edge-report.html";
+		}
 		
 		extentReport = new ExtentReports(directoryPath + relativePath, true);
 	}

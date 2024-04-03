@@ -7,6 +7,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 
 public class CruisesSearchPage extends BasePage{
@@ -16,6 +17,9 @@ public class CruisesSearchPage extends BasePage{
 	
 	@FindAll(@FindBy(css = "li.popular-item"))
 	List<WebElement> popularCruises;
+	
+	@FindBy(css = "div.detail-product")
+	WebElement cruiseDetailPanel;
 	
 	@FindBy(linkText = "Ship Details")
 	WebElement shipDetailsButtonElement;
@@ -29,15 +33,12 @@ public class CruisesSearchPage extends BasePage{
 	@FindAll(@FindBy(css = "span.parame-item"))
 	List<WebElement> shipDetails;
 	
-	//private Properties properties;
-	
 	public CruisesSearchPage(WebDriver driver) throws IOException {
 		super(driver);
-		//properties = PropertiesManager.loadProperties("cruisesSearchPage.properties");
 		PageFactory.initElements(driver, this);
 	}
 	
-	public void selectRandomCruise() {
+	public boolean selectRandomCruise() {
 		jse.executeScript("arguments[0].scrollIntoView(true)", popularCruisesElement);
 		int totalCruises = popularCruises.size();
 
@@ -50,9 +51,13 @@ public class CruisesSearchPage extends BasePage{
 				driver.switchTo().window(winHandle);
 			}
 		}
+		
+		WebElement cruisePanelElement = wait.until(ExpectedConditions.visibilityOf(cruiseDetailPanel));
+		return cruisePanelElement.isDisplayed();
+		
 	}
 	
-	public void clickShipDetailsLink() {
+	public boolean clickShipDetailsLink() {
 		jse.executeScript("arguments[0].scrollIntoView(true)", shipDetailsButtonElement);
 		jse.executeScript("arguments[0].click()", shipDetailsButtonElement);
 		String parentWinHandle = driver.getWindowHandle();
@@ -61,10 +66,16 @@ public class CruisesSearchPage extends BasePage{
 				driver.switchTo().window(winHandle);
 			}
 		}
+		
+		WebElement detailsElement = wait.until(ExpectedConditions.visibilityOf(shipDetailsElement));
+		
+		return detailsElement.isDisplayed();
 	}
 	
 	public void getShipDetails() {
 		jse.executeScript("arguments[0].scrollIntoView(true)", shipDetailsElement);
+		
+		System.out.println("--------------------------");
 		
 		System.out.println("Cruise Title: " + shipTitle.getText());
 		
@@ -75,6 +86,7 @@ public class CruisesSearchPage extends BasePage{
 				System.out.println(count++ + "." + info);
 			}
 		}
+		System.out.println("--------------------------");
 		
 	}
 }

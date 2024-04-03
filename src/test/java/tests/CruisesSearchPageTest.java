@@ -1,8 +1,6 @@
 package tests;
 
 import java.io.IOException;
-import java.util.Properties;
-
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -13,40 +11,38 @@ import utilities.PropertiesManager;
 
 public class CruisesSearchPageTest extends BaseTest{
 	
-	private Properties properties;
 	private CruisesSearchPage cruisesSearchPage;
 	
 	@BeforeClass
 	public void loading() throws IOException {
 		cruisesSearchPage = new CruisesSearchPage(driver);
-		properties = PropertiesManager.loadProperties("CruisesSearchPage.properties");
 	}
 	
 	@Test(priority = 1)
 	public void moveToCruisePage() throws IOException {
 		HomePage homePage = new HomePage(driver);
 		homePage.goToCruiseSection();
-	}
-	
-	@Test(priority = 2)
-	public void testWebPage() {
-		String expTitle = PropertiesManager.getProperty(properties, "expected.title");
+		String expTitle = PropertiesManager.getProperty(properties, "expected.cruiseSearchPage.title");
 		String actTitle = driver.getTitle();
 		
 		Assert.assertEquals(actTitle, expTitle);
 	}
 	
-	@Test(priority = 3)
+	@Test(priority = 2)
 	public void testCruiseSelection() {
-		cruisesSearchPage.selectRandomCruise();
+		boolean result = cruisesSearchPage.selectRandomCruise();
+		
+		Assert.assertTrue(result);
+	}
+	
+	@Test(priority = 3)
+	public void findShipDetails() {
+		boolean result = cruisesSearchPage.clickShipDetailsLink();
+		
+		Assert.assertTrue(result);
 	}
 	
 	@Test(priority = 4)
-	public void findShipDetails() {
-		cruisesSearchPage.clickShipDetailsLink();
-	}
-	
-	@Test(priority = 5)
 	public void getShipDetails() {
 		cruisesSearchPage.getShipDetails();
 	}

@@ -1,91 +1,190 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="6" total="22" passed="13" failed="3" skipped="0">
+<testng-results ignored="12" total="44" passed="32" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-02T10:17:49 IST" name="Suite" finished-at="2024-04-02T10:21:38 IST" duration-ms="228837">
+  <suite started-at="2024-04-04T02:48:31 IST" name="Suite" finished-at="2024-04-04T02:50:48 IST" duration-ms="136996">
     <groups>
       <group name="smokeTest">
-        <method signature="HomePageTest.testCheckInDate()[pri:3, instance:tests.HomePageTest@32ee6fee]" name="testCheckInDate" class="tests.HomePageTest"/>
-        <method signature="HomePageTest.testOpenBrowser()[pri:1, instance:tests.HomePageTest@32ee6fee]" name="testOpenBrowser" class="tests.HomePageTest"/>
-        <method signature="HomePageTest.testSearchButton()[pri:5, instance:tests.HomePageTest@32ee6fee]" name="testSearchButton" class="tests.HomePageTest"/>
-        <method signature="HomePageTest.testSelectedDestination()[pri:2, instance:tests.HomePageTest@32ee6fee]" name="testSelectedDestination" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.testCheckInDate()[pri:3, instance:tests.HomePageTest@4229bb3f]" name="testCheckInDate" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.testCheckOutDate()[pri:4, instance:tests.HomePageTest@4229bb3f]" name="testCheckOutDate" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.testGuestsAndRooms()[pri:5, instance:tests.HomePageTest@4229bb3f]" name="testGuestsAndRooms" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.testHomePageTitle()[pri:1, instance:tests.HomePageTest@4229bb3f]" name="testHomePageTitle" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.testSearchButton()[pri:6, instance:tests.HomePageTest@4229bb3f]" name="testSearchButton" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.testSelectedDestination()[pri:2, instance:tests.HomePageTest@4229bb3f]" name="testSelectedDestination" class="tests.HomePageTest"/>
+        <method signature="HotelsSearchPageTest.getHotelsDetails()[pri:5, instance:tests.HotelsSearchPageTest@20ccf40b]" name="getHotelsDetails" class="tests.HotelsSearchPageTest"/>
+        <method signature="HotelsSearchPageTest.selectAmenity()[pri:4, instance:tests.HotelsSearchPageTest@20ccf40b]" name="selectAmenity" class="tests.HotelsSearchPageTest"/>
+        <method signature="HotelsSearchPageTest.selectPropertyType()[pri:3, instance:tests.HotelsSearchPageTest@20ccf40b]" name="selectPropertyType" class="tests.HotelsSearchPageTest"/>
+        <method signature="HotelsSearchPageTest.sortHotels()[pri:2, instance:tests.HotelsSearchPageTest@20ccf40b]" name="sortHotels" class="tests.HotelsSearchPageTest"/>
+        <method signature="HotelsSearchPageTest.testHotelSearchPageTitle()[pri:1, instance:tests.HotelsSearchPageTest@20ccf40b]" name="testHotelSearchPageTitle" class="tests.HotelsSearchPageTest"/>
+        <method signature="HomePageTest.testCheckInDate()[pri:3, instance:tests.HomePageTest@31fa1761]" name="testCheckInDate" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.testCheckOutDate()[pri:4, instance:tests.HomePageTest@31fa1761]" name="testCheckOutDate" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.testGuestsAndRooms()[pri:5, instance:tests.HomePageTest@31fa1761]" name="testGuestsAndRooms" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.testHomePageTitle()[pri:1, instance:tests.HomePageTest@31fa1761]" name="testHomePageTitle" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.testSearchButton()[pri:6, instance:tests.HomePageTest@31fa1761]" name="testSearchButton" class="tests.HomePageTest"/>
+        <method signature="HomePageTest.testSelectedDestination()[pri:2, instance:tests.HomePageTest@31fa1761]" name="testSelectedDestination" class="tests.HomePageTest"/>
+        <method signature="HotelsSearchPageTest.getHotelsDetails()[pri:5, instance:tests.HotelsSearchPageTest@957e06]" name="getHotelsDetails" class="tests.HotelsSearchPageTest"/>
+        <method signature="HotelsSearchPageTest.selectAmenity()[pri:4, instance:tests.HotelsSearchPageTest@957e06]" name="selectAmenity" class="tests.HotelsSearchPageTest"/>
+        <method signature="HotelsSearchPageTest.selectPropertyType()[pri:3, instance:tests.HotelsSearchPageTest@957e06]" name="selectPropertyType" class="tests.HotelsSearchPageTest"/>
+        <method signature="HotelsSearchPageTest.sortHotels()[pri:2, instance:tests.HotelsSearchPageTest@957e06]" name="sortHotels" class="tests.HotelsSearchPageTest"/>
+        <method signature="HotelsSearchPageTest.testHotelSearchPageTitle()[pri:1, instance:tests.HotelsSearchPageTest@957e06]" name="testHotelSearchPageTitle" class="tests.HotelsSearchPageTest"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2024-04-02T10:17:49 IST" name="Test" finished-at="2024-04-02T10:21:38 IST" duration-ms="228837">
+    <test started-at="2024-04-04T02:48:31 IST" name="ChromeTest" finished-at="2024-04-04T02:49:33 IST" duration-ms="61986">
       <class name="tests.HomePageTest">
-        <test-method is-config="true" signature="loading()[pri:0, instance:tests.HomePageTest@32ee6fee]" started-at="2024-04-02T10:18:33 IST" name="loading" finished-at="2024-04-02T10:18:33 IST" duration-ms="95" status="PASS">
+        <test-method is-config="true" signature="loading()[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:44 IST" name="loading" finished-at="2024-04-04T02:48:44 IST" duration-ms="295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loading -->
-        <test-method signature="testOpenBrowser()[pri:1, instance:tests.HomePageTest@32ee6fee]" started-at="2024-04-02T10:18:33 IST" name="testOpenBrowser" finished-at="2024-04-02T10:18:33 IST" duration-ms="35" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testOpenBrowser -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@32ee6fee]" started-at="2024-04-02T10:18:33 IST" name="getResult" finished-at="2024-04-02T10:18:34 IST" duration-ms="335" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:44 IST" name="beforeMethod" finished-at="2024-04-04T02:48:44 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testOpenBrowser status=SUCCESS method=HomePageTest.testOpenBrowser()[pri:1, instance:tests.HomePageTest@32ee6fee] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.testHomePageTitle()[pri:1, instance:tests.HomePageTest@4229bb3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testHomePageTitle()[pri:1, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:44 IST" name="testHomePageTitle" finished-at="2024-04-04T02:48:44 IST" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:44 IST" name="getResult" finished-at="2024-04-04T02:48:45 IST" duration-ms="447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePageTitle status=SUCCESS method=HomePageTest.testHomePageTitle()[pri:1, instance:tests.HomePageTest@4229bb3f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testSelectedDestination()[pri:2, instance:tests.HomePageTest@32ee6fee]" started-at="2024-04-02T10:18:34 IST" name="testSelectedDestination" finished-at="2024-04-02T10:18:37 IST" duration-ms="3343" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:45 IST" name="beforeMethod" finished-at="2024-04-04T02:48:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.testSelectedDestination()[pri:2, instance:tests.HomePageTest@4229bb3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSelectedDestination()[pri:2, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:45 IST" name="testSelectedDestination" finished-at="2024-04-04T02:48:46 IST" duration-ms="1903" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSelectedDestination -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@32ee6fee]" started-at="2024-04-02T10:18:37 IST" name="getResult" finished-at="2024-04-02T10:18:37 IST" duration-ms="228" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:46 IST" name="getResult" finished-at="2024-04-04T02:48:47 IST" duration-ms="255" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSelectedDestination status=SUCCESS method=HomePageTest.testSelectedDestination()[pri:2, instance:tests.HomePageTest@32ee6fee] output={null}]]]>
+                <![CDATA[[TestResult name=testSelectedDestination status=SUCCESS method=HomePageTest.testSelectedDestination()[pri:2, instance:tests.HomePageTest@4229bb3f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testCheckInDate()[pri:3, instance:tests.HomePageTest@32ee6fee]" started-at="2024-04-02T10:18:37 IST" name="testCheckInDate" finished-at="2024-04-02T10:18:38 IST" duration-ms="682" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:47 IST" name="beforeMethod" finished-at="2024-04-04T02:48:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.testCheckInDate()[pri:3, instance:tests.HomePageTest@4229bb3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCheckInDate()[pri:3, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:47 IST" name="testCheckInDate" finished-at="2024-04-04T02:48:47 IST" duration-ms="429" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckInDate -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@32ee6fee]" started-at="2024-04-02T10:18:38 IST" name="getResult" finished-at="2024-04-02T10:18:38 IST" duration-ms="240" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:47 IST" name="getResult" finished-at="2024-04-04T02:48:47 IST" duration-ms="258" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCheckInDate status=SUCCESS method=HomePageTest.testCheckInDate()[pri:3, instance:tests.HomePageTest@32ee6fee] output={null}]]]>
+                <![CDATA[[TestResult name=testCheckInDate status=SUCCESS method=HomePageTest.testCheckInDate()[pri:3, instance:tests.HomePageTest@4229bb3f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testGuestsAndRooms()[pri:4, instance:tests.HomePageTest@32ee6fee]" started-at="2024-04-02T10:18:38 IST" name="testGuestsAndRooms" finished-at="2024-04-02T10:18:39 IST" duration-ms="620" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:47 IST" name="beforeMethod" finished-at="2024-04-04T02:48:47 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.testCheckOutDate()[pri:4, instance:tests.HomePageTest@4229bb3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCheckOutDate()[pri:4, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:47 IST" name="testCheckOutDate" finished-at="2024-04-04T02:48:48 IST" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckOutDate -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:48 IST" name="getResult" finished-at="2024-04-04T02:48:48 IST" duration-ms="275" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckOutDate status=SUCCESS method=HomePageTest.testCheckOutDate()[pri:4, instance:tests.HomePageTest@4229bb3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:48 IST" name="beforeMethod" finished-at="2024-04-04T02:48:48 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.testGuestsAndRooms()[pri:5, instance:tests.HomePageTest@4229bb3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGuestsAndRooms()[pri:5, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:48 IST" name="testGuestsAndRooms" finished-at="2024-04-04T02:48:49 IST" duration-ms="637" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGuestsAndRooms -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@32ee6fee]" started-at="2024-04-02T10:18:39 IST" name="getResult" finished-at="2024-04-02T10:18:39 IST" duration-ms="289" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:49 IST" name="getResult" finished-at="2024-04-04T02:48:49 IST" duration-ms="283" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testGuestsAndRooms status=SUCCESS method=HomePageTest.testGuestsAndRooms()[pri:4, instance:tests.HomePageTest@32ee6fee] output={null}]]]>
+                <![CDATA[[TestResult name=testGuestsAndRooms status=SUCCESS method=HomePageTest.testGuestsAndRooms()[pri:5, instance:tests.HomePageTest@4229bb3f] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testSearchButton()[pri:5, instance:tests.HomePageTest@32ee6fee]" started-at="2024-04-02T10:18:39 IST" name="testSearchButton" finished-at="2024-04-02T10:18:40 IST" duration-ms="293" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchButton -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@32ee6fee]" started-at="2024-04-02T10:18:40 IST" name="getResult" finished-at="2024-04-02T10:19:30 IST" duration-ms="50835" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:49 IST" name="beforeMethod" finished-at="2024-04-04T02:48:49 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSearchButton status=SUCCESS method=HomePageTest.testSearchButton()[pri:5, instance:tests.HomePageTest@32ee6fee] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.testSearchButton()[pri:6, instance:tests.HomePageTest@4229bb3f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testSearchButton()[pri:6, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:49 IST" name="testSearchButton" finished-at="2024-04-04T02:49:00 IST" duration-ms="10837" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchButton -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:49:00 IST" name="getResult" finished-at="2024-04-04T02:49:00 IST" duration-ms="259" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchButton status=SUCCESS method=HomePageTest.testSearchButton()[pri:6, instance:tests.HomePageTest@4229bb3f] output={null}]]]>
               </value>
             </param>
           </params>
@@ -94,89 +193,125 @@
         </test-method> <!-- getResult -->
       </class> <!-- tests.HomePageTest -->
       <class name="tests.BaseTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:tests.BaseTest@67c33749]" started-at="2024-04-02T10:17:49 IST" name="setUp" finished-at="2024-04-02T10:18:33 IST" duration-ms="44135" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.BaseTest@4efc180e]" started-at="2024-04-04T02:48:31 IST" name="setUp" finished-at="2024-04-04T02:48:43 IST" duration-ms="12767" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BaseTest@67c33749]" started-at="2024-04-02T10:21:31 IST" name="tearDown" finished-at="2024-04-02T10:21:38 IST" duration-ms="6961" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BaseTest@4efc180e]" started-at="2024-04-04T02:49:26 IST" name="tearDown" finished-at="2024-04-04T02:49:33 IST" duration-ms="6363" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.BaseTest -->
       <class name="tests.CruisesSearchPageTest">
-        <test-method is-config="true" signature="loading()[pri:0, instance:tests.CruisesSearchPageTest@73e22a3d]" started-at="2024-04-02T10:21:22 IST" name="loading" finished-at="2024-04-02T10:21:22 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="loading()[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:18 IST" name="loading" finished-at="2024-04-04T02:49:18 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loading -->
-        <test-method signature="moveToCruisePage()[pri:1, instance:tests.CruisesSearchPageTest@73e22a3d]" started-at="2024-04-02T10:21:22 IST" name="moveToCruisePage" finished-at="2024-04-02T10:21:25 IST" duration-ms="2833" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:18 IST" name="beforeMethod" finished-at="2024-04-04T02:49:18 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CruisesSearchPageTest.moveToCruisePage()[pri:1, instance:tests.CruisesSearchPageTest@2fb3536e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="moveToCruisePage()[pri:1, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:18 IST" name="moveToCruisePage" finished-at="2024-04-04T02:49:20 IST" duration-ms="1739" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveToCruisePage -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@73e22a3d]" started-at="2024-04-02T10:21:25 IST" name="getResult" finished-at="2024-04-02T10:21:25 IST" duration-ms="359" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:20 IST" name="getResult" finished-at="2024-04-04T02:49:21 IST" duration-ms="708" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=moveToCruisePage status=SUCCESS method=CruisesSearchPageTest.moveToCruisePage()[pri:1, instance:tests.CruisesSearchPageTest@73e22a3d] output={null}]]]>
+                <![CDATA[[TestResult name=moveToCruisePage status=SUCCESS method=CruisesSearchPageTest.moveToCruisePage()[pri:1, instance:tests.CruisesSearchPageTest@2fb3536e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testWebPage()[pri:2, instance:tests.CruisesSearchPageTest@73e22a3d]" started-at="2024-04-02T10:21:25 IST" name="testWebPage" finished-at="2024-04-02T10:21:25 IST" duration-ms="11" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWebPage -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@73e22a3d]" started-at="2024-04-02T10:21:25 IST" name="getResult" finished-at="2024-04-02T10:21:25 IST" duration-ms="316" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:21 IST" name="beforeMethod" finished-at="2024-04-04T02:49:21 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testWebPage status=SUCCESS method=CruisesSearchPageTest.testWebPage()[pri:2, instance:tests.CruisesSearchPageTest@73e22a3d] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=CruisesSearchPageTest.testCruiseSelection()[pri:2, instance:tests.CruisesSearchPageTest@2fb3536e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getResult -->
-        <test-method signature="testCruiseSelection()[pri:3, instance:tests.CruisesSearchPageTest@73e22a3d]" started-at="2024-04-02T10:21:25 IST" name="testCruiseSelection" finished-at="2024-04-02T10:21:26 IST" duration-ms="177" status="PASS">
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCruiseSelection()[pri:2, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:21 IST" name="testCruiseSelection" finished-at="2024-04-04T02:49:23 IST" duration-ms="2398" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCruiseSelection -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@73e22a3d]" started-at="2024-04-02T10:21:26 IST" name="getResult" finished-at="2024-04-02T10:21:28 IST" duration-ms="2582" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:23 IST" name="getResult" finished-at="2024-04-04T02:49:24 IST" duration-ms="283" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testCruiseSelection status=SUCCESS method=CruisesSearchPageTest.testCruiseSelection()[pri:3, instance:tests.CruisesSearchPageTest@73e22a3d] output={null}]]]>
+                <![CDATA[[TestResult name=testCruiseSelection status=SUCCESS method=CruisesSearchPageTest.testCruiseSelection()[pri:2, instance:tests.CruisesSearchPageTest@2fb3536e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="findShipDetails()[pri:4, instance:tests.CruisesSearchPageTest@73e22a3d]" started-at="2024-04-02T10:21:28 IST" name="findShipDetails" finished-at="2024-04-02T10:21:28 IST" duration-ms="291" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:24 IST" name="beforeMethod" finished-at="2024-04-04T02:49:24 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CruisesSearchPageTest.findShipDetails()[pri:3, instance:tests.CruisesSearchPageTest@2fb3536e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="findShipDetails()[pri:3, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:24 IST" name="findShipDetails" finished-at="2024-04-04T02:49:25 IST" duration-ms="1802" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findShipDetails -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@73e22a3d]" started-at="2024-04-02T10:21:28 IST" name="getResult" finished-at="2024-04-02T10:21:31 IST" duration-ms="2200" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:25 IST" name="getResult" finished-at="2024-04-04T02:49:26 IST" duration-ms="380" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=findShipDetails status=SUCCESS method=CruisesSearchPageTest.findShipDetails()[pri:4, instance:tests.CruisesSearchPageTest@73e22a3d] output={null}]]]>
+                <![CDATA[[TestResult name=findShipDetails status=SUCCESS method=CruisesSearchPageTest.findShipDetails()[pri:3, instance:tests.CruisesSearchPageTest@2fb3536e] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="getShipDetails()[pri:5, instance:tests.CruisesSearchPageTest@73e22a3d]" started-at="2024-04-02T10:21:31 IST" name="getShipDetails" finished-at="2024-04-02T10:21:31 IST" duration-ms="243" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getShipDetails -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@73e22a3d]" started-at="2024-04-02T10:21:31 IST" name="getResult" finished-at="2024-04-02T10:21:31 IST" duration-ms="155" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:26 IST" name="beforeMethod" finished-at="2024-04-04T02:49:26 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=getShipDetails status=SUCCESS method=CruisesSearchPageTest.getShipDetails()[pri:5, instance:tests.CruisesSearchPageTest@73e22a3d] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=CruisesSearchPageTest.getShipDetails()[pri:4, instance:tests.CruisesSearchPageTest@2fb3536e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getShipDetails()[pri:4, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:26 IST" name="getShipDetails" finished-at="2024-04-04T02:49:26 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getShipDetails -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:26 IST" name="getResult" finished-at="2024-04-04T02:49:26 IST" duration-ms="183" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getShipDetails status=SUCCESS method=CruisesSearchPageTest.getShipDetails()[pri:4, instance:tests.CruisesSearchPageTest@2fb3536e] output={null}]]]>
               </value>
             </param>
           </params>
@@ -185,276 +320,160 @@
         </test-method> <!-- getResult -->
       </class> <!-- tests.CruisesSearchPageTest -->
       <class name="tests.HotelsSearchPageTest">
-        <test-method is-config="true" signature="loading()[pri:0, instance:tests.HotelsSearchPageTest@3232a28a]" started-at="2024-04-02T10:19:30 IST" name="loading" finished-at="2024-04-02T10:19:30 IST" duration-ms="49" status="PASS">
+        <test-method is-config="true" signature="loading()[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:00 IST" name="loading" finished-at="2024-04-04T02:49:00 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loading -->
-        <test-method signature="validateTitle()[pri:1, instance:tests.HotelsSearchPageTest@3232a28a]" started-at="2024-04-02T10:19:30 IST" name="validateTitle" finished-at="2024-04-02T10:19:30 IST" duration-ms="19" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [Nairobi Hotels - Where to stay in Nairobi | Trip.com] but found [Melbourne Hotels - Where to stay in Melbourne | Trip.com]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [Nairobi Hotels - Where to stay in Nairobi | Trip.com] but found [Melbourne Hotels - Where to stay in Melbourne | Trip.com]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at tests.HotelsSearchPageTest.validateTitle(HotelsSearchPageTest.java:27)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateTitle -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@3232a28a]" started-at="2024-04-02T10:19:30 IST" name="getResult" finished-at="2024-04-02T10:19:31 IST" duration-ms="302" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:00 IST" name="beforeMethod" finished-at="2024-04-04T02:49:00 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateTitle status=FAILURE method=HotelsSearchPageTest.validateTitle()[pri:1, instance:tests.HotelsSearchPageTest@3232a28a] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=HotelsSearchPageTest.testHotelSearchPageTitle()[pri:1, instance:tests.HotelsSearchPageTest@20ccf40b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testHotelSearchPageTitle()[pri:1, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:00 IST" name="testHotelSearchPageTitle" finished-at="2024-04-04T02:49:00 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHotelSearchPageTitle -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:00 IST" name="getResult" finished-at="2024-04-04T02:49:01 IST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHotelSearchPageTitle status=SUCCESS method=HotelsSearchPageTest.testHotelSearchPageTitle()[pri:1, instance:tests.HotelsSearchPageTest@20ccf40b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="sortHotels()[pri:2, instance:tests.HotelsSearchPageTest@3232a28a]" started-at="2024-04-02T10:19:31 IST" name="sortHotels" finished-at="2024-04-02T10:19:31 IST" duration-ms="751" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:01 IST" name="beforeMethod" finished-at="2024-04-04T02:49:01 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HotelsSearchPageTest.sortHotels()[pri:2, instance:tests.HotelsSearchPageTest@20ccf40b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="sortHotels()[pri:2, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:01 IST" name="sortHotels" finished-at="2024-04-04T02:49:02 IST" duration-ms="1101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortHotels -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@3232a28a]" started-at="2024-04-02T10:19:31 IST" name="getResult" finished-at="2024-04-02T10:19:32 IST" duration-ms="314" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:02 IST" name="getResult" finished-at="2024-04-04T02:49:02 IST" duration-ms="368" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=sortHotels status=SUCCESS method=HotelsSearchPageTest.sortHotels()[pri:2, instance:tests.HotelsSearchPageTest@3232a28a] output={null}]]]>
+                <![CDATA[[TestResult name=sortHotels status=SUCCESS method=HotelsSearchPageTest.sortHotels()[pri:2, instance:tests.HotelsSearchPageTest@20ccf40b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="selectPropertyType()[pri:3, instance:tests.HotelsSearchPageTest@3232a28a]" started-at="2024-04-02T10:19:32 IST" name="selectPropertyType" finished-at="2024-04-02T10:19:33 IST" duration-ms="1375" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <li id="showAll" class="" style="position:relative">...</li> is not clickable at point (233, 111). Other element would receive the click: <div class="content-con">...</div>
-  (Session info: chrome=121.0.6167.86)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [af819ce711adbb35aa3cb6983958140c, clickElement {id=FF2C4A39351789291E641027E8CD7F8C_element_256}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49331}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49331/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on windows (af819ce711adbb35aa3cb6983958140c)] -> css selector: div.category-content]] -> id: showAll]
-Session ID: af819ce711adbb35aa3cb6983958140c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li id="showAll" class="" style="position:relative">...</li> is not clickable at point (233, 111). Other element would receive the click: <div class="content-con">...</div>
-  (Session info: chrome=121.0.6167.86)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [af819ce711adbb35aa3cb6983958140c, clickElement {id=FF2C4A39351789291E641027E8CD7F8C_element_256}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49331}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49331/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on windows (af819ce711adbb35aa3cb6983958140c)] -> css selector: div.category-content]] -> id: showAll]
-Session ID: af819ce711adbb35aa3cb6983958140c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at pages.HotelsSearchPage.selectPropertyType(HotelsSearchPage.java:55)
-at tests.HotelsSearchPageTest.selectPropertyType(HotelsSearchPageTest.java:39)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:02 IST" name="beforeMethod" finished-at="2024-04-04T02:49:02 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HotelsSearchPageTest.selectPropertyType()[pri:3, instance:tests.HotelsSearchPageTest@20ccf40b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="selectPropertyType()[pri:3, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:02 IST" name="selectPropertyType" finished-at="2024-04-04T02:49:07 IST" duration-ms="4966" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectPropertyType -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@3232a28a]" started-at="2024-04-02T10:19:33 IST" name="getResult" finished-at="2024-04-02T10:19:33 IST" duration-ms="274" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:07 IST" name="getResult" finished-at="2024-04-04T02:49:07 IST" duration-ms="282" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectPropertyType status=FAILURE method=HotelsSearchPageTest.selectPropertyType()[pri:3, instance:tests.HotelsSearchPageTest@3232a28a] output={null}]]]>
+                <![CDATA[[TestResult name=selectPropertyType status=SUCCESS method=HotelsSearchPageTest.selectPropertyType()[pri:3, instance:tests.HotelsSearchPageTest@20ccf40b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="selectAmenty()[pri:4, instance:tests.HotelsSearchPageTest@3232a28a]" started-at="2024-04-02T10:19:33 IST" name="selectAmenty" finished-at="2024-04-02T10:19:35 IST" duration-ms="1304" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <li id="showAll" class="" style="position:relative">...</li> is not clickable at point (233, 111). Other element would receive the click: <div class="content-con">...</div>
-  (Session info: chrome=121.0.6167.86)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [af819ce711adbb35aa3cb6983958140c, clickElement {id=FF2C4A39351789291E641027E8CD7F8C_element_260}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49331}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49331/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on windows (af819ce711adbb35aa3cb6983958140c)] -> css selector: div.amenty-content]] -> id: showAll]
-Session ID: af819ce711adbb35aa3cb6983958140c]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <li id="showAll" class="" style="position:relative">...</li> is not clickable at point (233, 111). Other element would receive the click: <div class="content-con">...</div>
-  (Session info: chrome=121.0.6167.86)
-Build info: version: '4.18.1', revision: 'b1d3319b48'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [af819ce711adbb35aa3cb6983958140c, clickElement {id=FF2C4A39351789291E641027E8CD7F8C_element_260}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.86, chrome: {chromedriverVersion: 121.0.6167.184 (057a8ae7deb..., userDataDir: C:\Windows\SystemTemp\scope...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49331}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49331/devtoo..., se:cdpVersion: 121.0.6167.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[[[ChromeDriver: chrome on windows (af819ce711adbb35aa3cb6983958140c)] -> css selector: div.amenty-content]] -> id: showAll]
-Session ID: af819ce711adbb35aa3cb6983958140c
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at pages.HotelsSearchPage.selectAmeneties(HotelsSearchPage.java:69)
-at tests.HotelsSearchPageTest.selectAmenty(HotelsSearchPageTest.java:45)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- selectAmenty -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@3232a28a]" started-at="2024-04-02T10:19:35 IST" name="getResult" finished-at="2024-04-02T10:19:35 IST" duration-ms="255" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:07 IST" name="beforeMethod" finished-at="2024-04-04T02:49:07 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=selectAmenty status=FAILURE method=HotelsSearchPageTest.selectAmenty()[pri:4, instance:tests.HotelsSearchPageTest@3232a28a] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=HotelsSearchPageTest.selectAmenity()[pri:4, instance:tests.HotelsSearchPageTest@20ccf40b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="selectAmenity()[pri:4, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:07 IST" name="selectAmenity" finished-at="2024-04-04T02:49:13 IST" duration-ms="5335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAmenity -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:13 IST" name="getResult" finished-at="2024-04-04T02:49:13 IST" duration-ms="207" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectAmenity status=SUCCESS method=HotelsSearchPageTest.selectAmenity()[pri:4, instance:tests.HotelsSearchPageTest@20ccf40b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="displayPrices()[pri:5, instance:tests.HotelsSearchPageTest@3232a28a]" started-at="2024-04-02T10:19:35 IST" name="displayPrices" finished-at="2024-04-02T10:19:45 IST" duration-ms="10048" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- displayPrices -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@3232a28a]" started-at="2024-04-02T10:19:45 IST" name="getResult" finished-at="2024-04-02T10:19:45 IST" duration-ms="273" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:13 IST" name="beforeMethod" finished-at="2024-04-04T02:49:13 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=displayPrices status=SUCCESS method=HotelsSearchPageTest.displayPrices()[pri:5, instance:tests.HotelsSearchPageTest@3232a28a] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=HotelsSearchPageTest.getHotelsDetails()[pri:5, instance:tests.HotelsSearchPageTest@20ccf40b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getHotelsDetails()[pri:5, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:13 IST" name="getHotelsDetails" finished-at="2024-04-04T02:49:14 IST" duration-ms="1184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHotelsDetails -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:14 IST" name="getResult" finished-at="2024-04-04T02:49:14 IST" duration-ms="202" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getHotelsDetails status=SUCCESS method=HotelsSearchPageTest.getHotelsDetails()[pri:5, instance:tests.HotelsSearchPageTest@20ccf40b] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="moveToHomePage()[pri:5, instance:tests.HotelsSearchPageTest@3232a28a]" started-at="2024-04-02T10:19:45 IST" name="moveToHomePage" finished-at="2024-04-02T10:21:22 IST" duration-ms="96262" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:14 IST" name="beforeMethod" finished-at="2024-04-04T02:49:14 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HotelsSearchPageTest.moveToHomePage()[pri:5, instance:tests.HotelsSearchPageTest@20ccf40b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="moveToHomePage()[pri:5, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:14 IST" name="moveToHomePage" finished-at="2024-04-04T02:49:18 IST" duration-ms="3849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveToHomePage -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@3232a28a]" started-at="2024-04-02T10:21:22 IST" name="getResult" finished-at="2024-04-02T10:21:22 IST" duration-ms="229" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:18 IST" name="getResult" finished-at="2024-04-04T02:49:18 IST" duration-ms="349" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=moveToHomePage status=SUCCESS method=HotelsSearchPageTest.moveToHomePage()[pri:5, instance:tests.HotelsSearchPageTest@3232a28a] output={null}]]]>
+                <![CDATA[[TestResult name=moveToHomePage status=SUCCESS method=HotelsSearchPageTest.moveToHomePage()[pri:5, instance:tests.HotelsSearchPageTest@20ccf40b] output={null}]]]>
               </value>
             </param>
           </params>
@@ -462,6 +481,459 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           </reporter-output>
         </test-method> <!-- getResult -->
       </class> <!-- tests.HotelsSearchPageTest -->
-    </test> <!-- Test -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-04-04T02:49:33 IST" name="EdgeTest" finished-at="2024-04-04T02:50:48 IST" duration-ms="74948">
+      <class name="tests.HomePageTest">
+        <test-method is-config="true" signature="loading()[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:49 IST" name="loading" finished-at="2024-04-04T02:49:49 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loading -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:49 IST" name="beforeMethod" finished-at="2024-04-04T02:49:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.testHomePageTitle()[pri:1, instance:tests.HomePageTest@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testHomePageTitle()[pri:1, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:49 IST" name="testHomePageTitle" finished-at="2024-04-04T02:49:49 IST" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:49 IST" name="getResult" finished-at="2024-04-04T02:49:50 IST" duration-ms="682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHomePageTitle status=SUCCESS method=HomePageTest.testHomePageTitle()[pri:1, instance:tests.HomePageTest@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testSelectedDestination()[pri:2, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:50 IST" name="testSelectedDestination" finished-at="2024-04-04T02:49:52 IST" duration-ms="2053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectedDestination -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:50 IST" name="beforeMethod" finished-at="2024-04-04T02:49:50 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.testSelectedDestination()[pri:2, instance:tests.HomePageTest@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:52 IST" name="getResult" finished-at="2024-04-04T02:49:52 IST" duration-ms="254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSelectedDestination status=SUCCESS method=HomePageTest.testSelectedDestination()[pri:2, instance:tests.HomePageTest@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:52 IST" name="beforeMethod" finished-at="2024-04-04T02:49:52 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.testCheckInDate()[pri:3, instance:tests.HomePageTest@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCheckInDate()[pri:3, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:52 IST" name="testCheckInDate" finished-at="2024-04-04T02:49:53 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckInDate -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:53 IST" name="getResult" finished-at="2024-04-04T02:49:53 IST" duration-ms="279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckInDate status=SUCCESS method=HomePageTest.testCheckInDate()[pri:3, instance:tests.HomePageTest@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:53 IST" name="beforeMethod" finished-at="2024-04-04T02:49:53 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.testCheckOutDate()[pri:4, instance:tests.HomePageTest@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCheckOutDate()[pri:4, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:53 IST" name="testCheckOutDate" finished-at="2024-04-04T02:49:54 IST" duration-ms="565" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckOutDate -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:54 IST" name="getResult" finished-at="2024-04-04T02:49:54 IST" duration-ms="283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCheckOutDate status=SUCCESS method=HomePageTest.testCheckOutDate()[pri:4, instance:tests.HomePageTest@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:54 IST" name="beforeMethod" finished-at="2024-04-04T02:49:54 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.testGuestsAndRooms()[pri:5, instance:tests.HomePageTest@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testGuestsAndRooms()[pri:5, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:54 IST" name="testGuestsAndRooms" finished-at="2024-04-04T02:49:55 IST" duration-ms="765" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGuestsAndRooms -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:55 IST" name="getResult" finished-at="2024-04-04T02:49:55 IST" duration-ms="284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testGuestsAndRooms status=SUCCESS method=HomePageTest.testGuestsAndRooms()[pri:5, instance:tests.HomePageTest@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="testSearchButton()[pri:6, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:55 IST" name="testSearchButton" finished-at="2024-04-04T02:49:55 IST" duration-ms="278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchButton -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:55 IST" name="beforeMethod" finished-at="2024-04-04T02:49:55 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HomePageTest.testSearchButton()[pri:6, instance:tests.HomePageTest@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:55 IST" name="getResult" finished-at="2024-04-04T02:50:07 IST" duration-ms="11460" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSearchButton status=SUCCESS method=HomePageTest.testSearchButton()[pri:6, instance:tests.HomePageTest@31fa1761] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.HomePageTest -->
+      <class name="tests.BaseTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.BaseTest@729d991e]" started-at="2024-04-04T02:49:33 IST" name="setUp" finished-at="2024-04-04T02:49:49 IST" duration-ms="16644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BaseTest@729d991e]" started-at="2024-04-04T02:50:40 IST" name="tearDown" finished-at="2024-04-04T02:50:48 IST" duration-ms="7315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.BaseTest -->
+      <class name="tests.CruisesSearchPageTest">
+        <test-method is-config="true" signature="loading()[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:32 IST" name="loading" finished-at="2024-04-04T02:50:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loading -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:32 IST" name="beforeMethod" finished-at="2024-04-04T02:50:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CruisesSearchPageTest.moveToCruisePage()[pri:1, instance:tests.CruisesSearchPageTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="moveToCruisePage()[pri:1, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:32 IST" name="moveToCruisePage" finished-at="2024-04-04T02:50:34 IST" duration-ms="2246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToCruisePage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:34 IST" name="getResult" finished-at="2024-04-04T02:50:35 IST" duration-ms="635" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=moveToCruisePage status=SUCCESS method=CruisesSearchPageTest.moveToCruisePage()[pri:1, instance:tests.CruisesSearchPageTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:35 IST" name="beforeMethod" finished-at="2024-04-04T02:50:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CruisesSearchPageTest.testCruiseSelection()[pri:2, instance:tests.CruisesSearchPageTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testCruiseSelection()[pri:2, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:35 IST" name="testCruiseSelection" finished-at="2024-04-04T02:50:37 IST" duration-ms="2240" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCruiseSelection -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:37 IST" name="getResult" finished-at="2024-04-04T02:50:37 IST" duration-ms="298" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testCruiseSelection status=SUCCESS method=CruisesSearchPageTest.testCruiseSelection()[pri:2, instance:tests.CruisesSearchPageTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:37 IST" name="beforeMethod" finished-at="2024-04-04T02:50:37 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CruisesSearchPageTest.findShipDetails()[pri:3, instance:tests.CruisesSearchPageTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="findShipDetails()[pri:3, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:37 IST" name="findShipDetails" finished-at="2024-04-04T02:50:39 IST" duration-ms="1858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findShipDetails -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:39 IST" name="getResult" finished-at="2024-04-04T02:50:40 IST" duration-ms="453" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=findShipDetails status=SUCCESS method=CruisesSearchPageTest.findShipDetails()[pri:3, instance:tests.CruisesSearchPageTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:40 IST" name="beforeMethod" finished-at="2024-04-04T02:50:40 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=CruisesSearchPageTest.getShipDetails()[pri:4, instance:tests.CruisesSearchPageTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getShipDetails()[pri:4, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:40 IST" name="getShipDetails" finished-at="2024-04-04T02:50:40 IST" duration-ms="571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getShipDetails -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:40 IST" name="getResult" finished-at="2024-04-04T02:50:40 IST" duration-ms="216" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getShipDetails status=SUCCESS method=CruisesSearchPageTest.getShipDetails()[pri:4, instance:tests.CruisesSearchPageTest@32502377] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.CruisesSearchPageTest -->
+      <class name="tests.HotelsSearchPageTest">
+        <test-method is-config="true" signature="loading()[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:07 IST" name="loading" finished-at="2024-04-04T02:50:07 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loading -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:07 IST" name="beforeMethod" finished-at="2024-04-04T02:50:07 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HotelsSearchPageTest.testHotelSearchPageTitle()[pri:1, instance:tests.HotelsSearchPageTest@957e06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testHotelSearchPageTitle()[pri:1, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:07 IST" name="testHotelSearchPageTitle" finished-at="2024-04-04T02:50:07 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHotelSearchPageTitle -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:07 IST" name="getResult" finished-at="2024-04-04T02:50:07 IST" duration-ms="243" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testHotelSearchPageTitle status=SUCCESS method=HotelsSearchPageTest.testHotelSearchPageTitle()[pri:1, instance:tests.HotelsSearchPageTest@957e06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:07 IST" name="beforeMethod" finished-at="2024-04-04T02:50:07 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HotelsSearchPageTest.sortHotels()[pri:2, instance:tests.HotelsSearchPageTest@957e06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="sortHotels()[pri:2, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:07 IST" name="sortHotels" finished-at="2024-04-04T02:50:08 IST" duration-ms="1065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sortHotels -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:08 IST" name="getResult" finished-at="2024-04-04T02:50:09 IST" duration-ms="820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=sortHotels status=SUCCESS method=HotelsSearchPageTest.sortHotels()[pri:2, instance:tests.HotelsSearchPageTest@957e06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:09 IST" name="beforeMethod" finished-at="2024-04-04T02:50:09 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HotelsSearchPageTest.selectPropertyType()[pri:3, instance:tests.HotelsSearchPageTest@957e06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="selectPropertyType()[pri:3, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:09 IST" name="selectPropertyType" finished-at="2024-04-04T02:50:20 IST" duration-ms="11509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectPropertyType -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:20 IST" name="getResult" finished-at="2024-04-04T02:50:21 IST" duration-ms="317" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectPropertyType status=SUCCESS method=HotelsSearchPageTest.selectPropertyType()[pri:3, instance:tests.HotelsSearchPageTest@957e06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:21 IST" name="beforeMethod" finished-at="2024-04-04T02:50:21 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HotelsSearchPageTest.selectAmenity()[pri:4, instance:tests.HotelsSearchPageTest@957e06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="selectAmenity()[pri:4, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:21 IST" name="selectAmenity" finished-at="2024-04-04T02:50:26 IST" duration-ms="5216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectAmenity -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:26 IST" name="getResult" finished-at="2024-04-04T02:50:26 IST" duration-ms="261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectAmenity status=SUCCESS method=HotelsSearchPageTest.selectAmenity()[pri:4, instance:tests.HotelsSearchPageTest@957e06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:26 IST" name="beforeMethod" finished-at="2024-04-04T02:50:26 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HotelsSearchPageTest.getHotelsDetails()[pri:5, instance:tests.HotelsSearchPageTest@957e06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="getHotelsDetails()[pri:5, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:26 IST" name="getHotelsDetails" finished-at="2024-04-04T02:50:26 IST" duration-ms="311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHotelsDetails -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:26 IST" name="getResult" finished-at="2024-04-04T02:50:27 IST" duration-ms="253" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getHotelsDetails status=SUCCESS method=HotelsSearchPageTest.getHotelsDetails()[pri:5, instance:tests.HotelsSearchPageTest@957e06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:27 IST" name="beforeMethod" finished-at="2024-04-04T02:50:27 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=HotelsSearchPageTest.moveToHomePage()[pri:5, instance:tests.HotelsSearchPageTest@957e06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="moveToHomePage()[pri:5, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:27 IST" name="moveToHomePage" finished-at="2024-04-04T02:50:31 IST" duration-ms="4735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- moveToHomePage -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:31 IST" name="getResult" finished-at="2024-04-04T02:50:32 IST" duration-ms="351" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=moveToHomePage status=SUCCESS method=HotelsSearchPageTest.moveToHomePage()[pri:5, instance:tests.HotelsSearchPageTest@957e06] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+      </class> <!-- tests.HotelsSearchPageTest -->
+    </test> <!-- EdgeTest -->
   </suite> <!-- Suite -->
 </testng-results>

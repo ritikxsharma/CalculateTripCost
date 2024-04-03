@@ -4,16 +4,22 @@ import java.io.IOException;
 import java.time.Duration;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 
 public class DriverManager {
 	public static WebDriver driver;
 	
-	public DriverManager() throws IOException {
-		DriverManager.driver = initializeDriver();
+	public DriverManager(String browser) throws IOException {
+		DriverManager.driver = initializeDriver(browser);
 	}
 	
-	private WebDriver initializeDriver() {
-		WebDriver driver = new ChromeDriver();
+	private WebDriver initializeDriver(String browser) {
+		
+		if(browser.equalsIgnoreCase("chrome")) {
+			driver = new ChromeDriver();
+		}else {
+			driver = new EdgeDriver();
+		}
 		return driver;
 	}
 	

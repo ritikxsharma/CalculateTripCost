@@ -7,6 +7,7 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 
 public class ScreenshotManager {
 	private TakesScreenshot screenShot;
@@ -24,7 +25,13 @@ public class ScreenshotManager {
 		File srcFile = screenShot.getScreenshotAs(OutputType.FILE);
 		
 		String directoryPath = System.getProperty("user.dir");
-		String relativePath = "/src/test/resources/test-results/screenshots/" + fileName + ".png";
+		String relativePath = "/src/test/resources/test-results/screenshots";
+		
+		if(driver.getClass().getName().equals(ChromeDriver.class.getName())) {
+			relativePath += "/chrome-" + fileName + ".png";
+		}else {
+			relativePath += "/edge-" + fileName + ".png";
+		}
 		
 		File destFile = new File(directoryPath + relativePath);
 		

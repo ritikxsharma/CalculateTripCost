@@ -1,7 +1,6 @@
 package pages;
 
 import java.io.IOException;
-import java.time.Duration;
 import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,48 +8,52 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindAll;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class HotelsSearchPage extends BasePage {
 		
 	@FindBy(id = "list_hotel_sort")
 	WebElement hotelsSortDropdownElement;
 	
-	@FindBy(xpath = "//div[@id = 'list_hotel_sort']/div/span[contains(text(), 'Star Rating')]")
-	WebElement hotelsSortOptionElement;
+	@FindAll(@FindBy(css = "span.drop-options"))
+	List<WebElement> hotelsSortOptions;
+	
+	@FindBy(css = "span.active")
+	WebElement hotelSortSelectedOption;
 	
 	@FindBy(css = "div.category-content")
 	WebElement propertyTypeElement;
 	
 	@FindBy(css = "div.amenty-content")
-	WebElement amentyElement;
+	WebElement amenityElement;
+	
+	@FindAll(@FindBy(css = "div.choosen-item-v8"))
+	List<WebElement> selectedFilters;
 	
 	@FindAll(@FindBy(css = "div.hotel-info"))
 	List<WebElement> allHotelsInfo;
-	
-	//private Properties properties;
 
 	public HotelsSearchPage(WebDriver driver) throws IOException{
 		super(driver);
-		loadProperties("hotelsSearchPage.properties");
 		PageFactory.initElements(driver, this);
-		wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 	}
 	
-	private void loadProperties(String fileName) {
-		try {
-			//properties = PropertiesManager.loadProperties(fileName);
-		} catch(Exception e) {
-			System.out.println("Error reading properties file: " + e.getMessage());
-		}
-	}
 		
-	public void sortHotelResults(String option) {
+	public String sortHotelResults(String option) {
 		hotelsSortDropdownElement.click();
-		hotelsSortOptionElement.click();
+
+		String selectedOption = null;
+		for(WebElement ele : hotelsSortOptions) {
+			if(ele.getText().equals(option)) {
+				selectedOption = ele.getText();
+				ele.click();
+				break;
+			}
+		}
+		
+		return selectedOption;
 	}
 	
-	public void selectPropertyType(String type) {
+	public String selectPropertyType(String type) {
 		jse.executeScript("arguments[0].scrollIntoView(true)", propertyTypeElement);
 		propertyTypeElement.findElement(By.id("showAll")).click();
 		
@@ -62,13 +65,16 @@ public class HotelsSearchPage extends BasePage {
 				break;
 			}
 		}
+		
+		return getSelectedFilter(type);
+		
 	}
 	
-	public void selectAmeneties(String type) {
-		jse.executeScript("arguments[0].scrollIntoView(true)", amentyElement);
-		amentyElement.findElement(By.id("showAll")).click();
+	public String selectAmeneties(String type) {
+		jse.executeScript("arguments[0].scrollIntoView(true)", amenityElement);
+		amenityElement.findElement(By.id("showAll")).click();
 		
-		List<WebElement> allTypes = amentyElement.findElements(By.cssSelector("li.m-checkbox_item"));
+		List<WebElement> allTypes = amenityElement.findElements(By.cssSelector("li.m-checkbox_item"));
 		for(WebElement typeElement : allTypes) {
 			String currType = typeElement.getText();
 			if(currType.equalsIgnoreCase(type)) {
@@ -76,6 +82,8 @@ public class HotelsSearchPage extends BasePage {
 				break;
 			}
 		}
+		
+		return getSelectedFilter(type);
 	}
 	
 	public void displayPrices() {
@@ -85,6 +93,8 @@ public class HotelsSearchPage extends BasePage {
 			return;
 		}
 		
+		System.out.println("-------------------------");
+		System.out.println("Hotels Details");
 		int count = 0;
 		for(WebElement hotel : allHotelsInfo) {
 			if(count == 3) {
@@ -102,6 +112,20 @@ public class HotelsSearchPage extends BasePage {
 				System.out.println("   Price for whole stay: " + priceForWholeStay);
 			}
 		}
+		System.out.println("-------------------------");
+	}
+	
+	private String getSelectedFilter(String filter) {
+		String selectedFilter = null;
+		for(WebElement filterElement : selectedFilters) {
+			String filterText = filterElement.getText();
+			if(filterText.equals(filter)) {
+				selectedFilter = filterText;
+				break;
+			}
+		}
+		
+		return selectedFilter;
 	}
 	
 }

@@ -12,30 +12,47 @@ import utilities.PropertiesManager;
 import utilities.ScreenshotManager;
 
 public class BaseTest {
-	private Properties properties;
+	protected static Properties properties;
 	protected static WebDriver driver;
 	protected DriverManager driverManager;
 	protected ScreenshotManager screenshotManager;
 	protected String baseUrl;
 	
 	@BeforeTest
-	public void setUp() throws IOException{
-		ExtentReportManager.startReport();
-		properties = PropertiesManager.loadProperties("config.properties");
+	@Parameters("browser")
+	public void setUp(String browser) throws IOException{
+		properties = PropertiesManager.loadProperties("tests.properties");
 		baseUrl = PropertiesManager.getProperty(properties, "website.url");
 		
-		driverManager = new DriverManager();
+		driverManager = new DriverManager(browser);
 		driver = DriverManager.driver;
 
 		driverManager.setUrl(baseUrl);
 		driverManager.maximizeDriver();
 		driverManager.setImplicitWait(10);
+		
+		ExtentReportManager.startReport(driver);
+		
+		System.out.println("\nAutomation and testing in " + browser);
+	}
+	
+	@BeforeMethod
+	public void beforeMethod(ITestResult result) {
+		String testName = result.getMethod().getMethodName();
+		System.out.println("\nRunning test: " + testName);
 	}
 	
 	@AfterMethod
 	public void getResult(ITestResult result) {
 		screenshotManager = new ScreenshotManager(driver, result.getName());
 		ExtentReportManager.getResult(result);
+		
+		if(result.isSuccess()) {
+			System.out.println("Result: PASSED");
+		}else {
+			System.out.println("Result: FAILED");
+		}
+		
 	}
 	
 	@AfterTest
