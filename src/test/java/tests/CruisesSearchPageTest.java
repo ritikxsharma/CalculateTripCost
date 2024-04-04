@@ -29,14 +29,14 @@ public class CruisesSearchPageTest extends BaseTest{
 	}
 	
 	@Test(priority = 2)
-	public void testCruiseSelection() {
+	public void testCruiseSelection() throws InterruptedException {
 		boolean result = cruisesSearchPage.selectRandomCruise();
 		
 		Assert.assertTrue(result);
 	}
 	
 	@Test(priority = 3)
-	public void findShipDetails() {
+	public void findShipDetails() throws InterruptedException {
 		boolean result = cruisesSearchPage.clickShipDetailsLink();
 		
 		Assert.assertTrue(result);

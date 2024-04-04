@@ -23,6 +23,9 @@ public class HomePage extends BasePage {
 	@FindBy(id = "hotels-destination")
 	public WebElement destinationInputElement;
 	
+	@FindBy(css = "div#dropList div.associative-item:nth-child(1)")
+	WebElement destinationListElement;
+	
 	@FindBy(css = "div.c-calendar-month:nth-child(1) div.c-calendar-month__title")
 	WebElement currMonthYearElement;
 	
@@ -44,19 +47,24 @@ public class HomePage extends BasePage {
 	@FindBy(css = "div.child-kid:nth-child(3)")
 	WebElement childrenElement;
 	
+	@FindBy(css = "i.u-icon-ic_plus")
+	WebElement roomsAndGuestPlusButton;
+	
+	@FindBy(css = "i.u-icon-ic_minus")
+	WebElement roomsAndGuestMinusButton;
+	
 	public HomePage(WebDriver driver) throws IOException{
 		super(driver);
 		PageFactory.initElements(driver, this);
 	}
 	
 	public void goToCruiseSection() {
-		cruiseSectionElement.click();
+		jse.executeScript("arguments[0].click()", cruiseSectionElement);
 	}
 	
 	public void selectDestination(String destination) {
 		destinationInputElement.sendKeys(destination);
-		
-		driver.findElement(By.cssSelector("div#dropList div.associative-item:nth-child(1)")).click();
+		jse.executeScript("arguments[0].click()", destinationListElement);
 	}
 	
 	public void selectDate(LocalDate date) {
@@ -75,13 +83,13 @@ public class HomePage extends BasePage {
 				for(WebElement dateElement : calendarDatesElement) {
 					int currDay = Integer.parseInt(dateElement.getText());
 					if(Integer.parseInt(expDay) == currDay) {
-						dateElement.click();
+						jse.executeScript("arguments[0].click()", dateElement);
 						break;
 					}
 				}
 				break;
 			}
-			calendarNextButtonElement.click();						
+			jse.executeScript("arguments[0].click()", calendarNextButtonElement);						
 		}
 	}
 	
@@ -93,7 +101,7 @@ public class HomePage extends BasePage {
 	}
 	
 	public void clickSearch() {
-		searchButtonElement.click();
+		jse.executeScript("arguments[0].click()", searchButtonElement);
 	}
 	
 	private void selectCount(WebElement element, int expCount) {
@@ -105,10 +113,12 @@ public class HomePage extends BasePage {
 				break;
 			}
 			else if(expCount > actCount) {
-				element.findElement(By.cssSelector("i.u-icon-ic_plus")).click();;
+				WebElement plusBtnElement = element.findElement(By.cssSelector("i.u-icon-ic_plus"));
+				jse.executeScript("arguments[0].click()", plusBtnElement);
 			}
 			else {
-				element.findElement(By.cssSelector("i.u-icon_ic_minus")).click();;
+				WebElement minusBtnElement = element.findElement(By.cssSelector("i.u-icon-ic_minus"));
+				jse.executeScript("arguments[0].click()", minusBtnElement);
 			}
 		}
 	}

@@ -18,7 +18,7 @@ public class BaseTest {
 	protected ScreenshotManager screenshotManager;
 	protected String baseUrl;
 	
-	@BeforeTest
+	@BeforeTest(groups = "smokeTest")
 	@Parameters("browser")
 	public void setUp(@Optional("chrome") String browser) throws IOException{
 		properties = PropertiesManager.loadProperties("tests.properties");
@@ -36,13 +36,13 @@ public class BaseTest {
 		System.out.println("\nAutomation and testing in " + browser);
 	}
 	
-	@BeforeMethod
+	@BeforeMethod(groups = "smokeTest")
 	public void beforeMethod(ITestResult result) {
 		String testName = result.getMethod().getMethodName();
 		System.out.println("\nRunning test: " + testName);
 	}
 	
-	@AfterMethod
+	@AfterMethod(groups = "smokeTest")
 	public void getResult(ITestResult result) {
 		screenshotManager = new ScreenshotManager(driver, result.getName());
 		ExtentReportManager.getResult(result);
@@ -52,10 +52,9 @@ public class BaseTest {
 		}else {
 			System.out.println("Result: FAILED");
 		}
-		
 	}
 	
-	@AfterTest
+	@AfterTest(groups = "smokeTest")
 	public void tearDown() {
 		ExtentReportManager.stopReport();
 		driver.quit();

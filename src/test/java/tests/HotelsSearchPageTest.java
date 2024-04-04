@@ -53,7 +53,7 @@ public class HotelsSearchPageTest extends BaseTest {
 	}
 
 	@Test(priority = 5, groups = "smokeTest")
-	public void getHotelsDetails() {
+	public void getHotelsDetails() throws InterruptedException {
 		hotelsSearchPage.displayPrices();
 	}
 

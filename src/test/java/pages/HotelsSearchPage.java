@@ -45,7 +45,7 @@ public class HotelsSearchPage extends BasePage {
 		for(WebElement ele : hotelsSortOptions) {
 			if(ele.getText().equals(option)) {
 				selectedOption = ele.getText();
-				ele.click();
+				jse.executeScript("arguments[0].click()", ele);
 				break;
 			}
 		}
@@ -61,7 +61,8 @@ public class HotelsSearchPage extends BasePage {
 		for(WebElement typeElement : allTypes) {
 			String currType = typeElement.getText();
 			if(currType.equalsIgnoreCase(type)) {
-				typeElement.findElement(By.tagName("i")).click();
+				WebElement ele = typeElement.findElement(By.tagName("i"));
+				jse.executeScript("arguments[0].click()", ele);
 				break;
 			}
 		}
@@ -78,7 +79,8 @@ public class HotelsSearchPage extends BasePage {
 		for(WebElement typeElement : allTypes) {
 			String currType = typeElement.getText();
 			if(currType.equalsIgnoreCase(type)) {
-				typeElement.findElement(By.tagName("i")).click();
+				WebElement ele = typeElement.findElement(By.tagName("i"));
+				jse.executeScript("arguments[0].click()", ele);
 				break;
 			}
 		}
@@ -86,8 +88,10 @@ public class HotelsSearchPage extends BasePage {
 		return getSelectedFilter(type);
 	}
 	
-	public void displayPrices() {
-
+	public void displayPrices() throws InterruptedException {
+		
+		Thread.sleep(2000);
+		
 		if(allHotelsInfo.size() == 0) {
 			System.out.println("No properties avaiable for the given requirements.");
 			return;

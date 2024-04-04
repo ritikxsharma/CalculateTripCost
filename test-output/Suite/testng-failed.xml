@@ -4,16 +4,80 @@
   <test thread-count="5" name="ChromeTest(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
+      <class name="tests.CruisesSearchPageTest">
+        <methods>
+          <include name="moveToCruisePage"/>
+          <include name="getResult"/>
+          <include name="testCruiseSelection"/>
+          <include name="getShipDetails"/>
+          <include name="loading"/>
+          <include name="beforeMethod"/>
+          <include name="findShipDetails"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CruisesSearchPageTest -->
       <class name="tests.HotelsSearchPageTest">
         <methods>
           <include name="getResult"/>
+          <include name="selectAmenity"/>
           <include name="loading"/>
           <include name="selectPropertyType"/>
           <include name="beforeMethod"/>
+          <include name="moveToHomePage"/>
           <include name="tearDown"/>
+          <include name="getHotelsDetails"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- tests.HotelsSearchPageTest -->
     </classes>
   </test> <!-- ChromeTest(failed) -->
+  <test thread-count="5" name="EdgeTest(failed)">
+    <parameter name="browser" value="edge"/>
+    <classes>
+      <class name="tests.CruisesSearchPageTest">
+        <methods>
+          <include name="moveToCruisePage"/>
+          <include name="getResult"/>
+          <include name="testCruiseSelection"/>
+          <include name="getShipDetails"/>
+          <include name="loading"/>
+          <include name="beforeMethod"/>
+          <include name="findShipDetails"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CruisesSearchPageTest -->
+      <class name="tests.HotelsSearchPageTest">
+        <methods>
+          <include name="testHotelSearchPageTitle"/>
+          <include name="getResult"/>
+          <include name="selectAmenity"/>
+          <include name="loading"/>
+          <include name="selectPropertyType"/>
+          <include name="beforeMethod"/>
+          <include name="moveToHomePage"/>
+          <include name="sortHotels"/>
+          <include name="tearDown"/>
+          <include name="getHotelsDetails"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.HotelsSearchPageTest -->
+      <class name="tests.HomePageTest">
+        <methods>
+          <include name="getResult"/>
+          <include name="testSearchButton"/>
+          <include name="testCheckOutDate"/>
+          <include name="loading"/>
+          <include name="beforeMethod"/>
+          <include name="testSelectedDestination"/>
+          <include name="testCheckInDate"/>
+          <include name="testHomePageTitle"/>
+          <include name="testGuestsAndRooms"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.HomePageTest -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
 </suite> <!-- Failed suite [Suite] -->

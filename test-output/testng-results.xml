@@ -2,7 +2,7 @@
 <testng-results ignored="12" total="44" passed="32" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-04-04T02:48:31 IST" name="Suite" finished-at="2024-04-04T02:50:48 IST" duration-ms="136996">
+  <suite started-at="2024-04-04T15:43:51 IST" name="Suite" finished-at="2024-04-04T15:49:50 IST" duration-ms="358158">
     <groups>
       <group name="smokeTest">
         <method signature="HomePageTest.testCheckInDate()[pri:3, instance:tests.HomePageTest@4229bb3f]" name="testCheckInDate" class="tests.HomePageTest"/>
@@ -29,13 +29,13 @@
         <method signature="HotelsSearchPageTest.testHotelSearchPageTitle()[pri:1, instance:tests.HotelsSearchPageTest@957e06]" name="testHotelSearchPageTitle" class="tests.HotelsSearchPageTest"/>
       </group> <!-- smokeTest -->
     </groups>
-    <test started-at="2024-04-04T02:48:31 IST" name="ChromeTest" finished-at="2024-04-04T02:49:33 IST" duration-ms="61986">
+    <test started-at="2024-04-04T15:43:51 IST" name="ChromeTest" finished-at="2024-04-04T15:46:56 IST" duration-ms="184735">
       <class name="tests.HomePageTest">
-        <test-method is-config="true" signature="loading()[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:44 IST" name="loading" finished-at="2024-04-04T02:48:44 IST" duration-ms="295" status="PASS">
+        <test-method is-config="true" signature="loading()[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:31 IST" name="loading" finished-at="2024-04-04T15:44:31 IST" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loading -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:44 IST" name="beforeMethod" finished-at="2024-04-04T02:48:44 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:31 IST" name="beforeMethod" finished-at="2024-04-04T15:44:31 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -46,11 +46,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testHomePageTitle()[pri:1, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:44 IST" name="testHomePageTitle" finished-at="2024-04-04T02:48:44 IST" duration-ms="172" status="PASS">
+        <test-method signature="testHomePageTitle()[pri:1, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:31 IST" name="testHomePageTitle" finished-at="2024-04-04T15:44:31 IST" duration-ms="25" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHomePageTitle -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:44 IST" name="getResult" finished-at="2024-04-04T02:48:45 IST" duration-ms="447" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:31 IST" name="getResult" finished-at="2024-04-04T15:44:31 IST" duration-ms="367" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,7 +61,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:45 IST" name="beforeMethod" finished-at="2024-04-04T02:48:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:31 IST" name="beforeMethod" finished-at="2024-04-04T15:44:31 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -72,11 +72,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testSelectedDestination()[pri:2, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:45 IST" name="testSelectedDestination" finished-at="2024-04-04T02:48:46 IST" duration-ms="1903" status="PASS">
+        <test-method signature="testSelectedDestination()[pri:2, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:31 IST" name="testSelectedDestination" finished-at="2024-04-04T15:44:33 IST" duration-ms="2326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSelectedDestination -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:46 IST" name="getResult" finished-at="2024-04-04T02:48:47 IST" duration-ms="255" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:33 IST" name="getResult" finished-at="2024-04-04T15:44:34 IST" duration-ms="217" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,7 +87,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:47 IST" name="beforeMethod" finished-at="2024-04-04T02:48:47 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:34 IST" name="beforeMethod" finished-at="2024-04-04T15:44:34 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -98,11 +98,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testCheckInDate()[pri:3, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:47 IST" name="testCheckInDate" finished-at="2024-04-04T02:48:47 IST" duration-ms="429" status="PASS">
+        <test-method signature="testCheckInDate()[pri:3, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:34 IST" name="testCheckInDate" finished-at="2024-04-04T15:44:34 IST" duration-ms="228" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckInDate -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:47 IST" name="getResult" finished-at="2024-04-04T02:48:47 IST" duration-ms="258" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:34 IST" name="getResult" finished-at="2024-04-04T15:44:34 IST" duration-ms="196" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -113,7 +113,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:47 IST" name="beforeMethod" finished-at="2024-04-04T02:48:47 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:34 IST" name="beforeMethod" finished-at="2024-04-04T15:44:34 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,11 +124,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testCheckOutDate()[pri:4, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:47 IST" name="testCheckOutDate" finished-at="2024-04-04T02:48:48 IST" duration-ms="547" status="PASS">
+        <test-method signature="testCheckOutDate()[pri:4, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:34 IST" name="testCheckOutDate" finished-at="2024-04-04T15:44:34 IST" duration-ms="278" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckOutDate -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:48 IST" name="getResult" finished-at="2024-04-04T02:48:48 IST" duration-ms="275" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:34 IST" name="getResult" finished-at="2024-04-04T15:44:35 IST" duration-ms="224" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -139,7 +139,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:48 IST" name="beforeMethod" finished-at="2024-04-04T02:48:48 IST" duration-ms="0" status="PASS">
+        <test-method signature="testGuestsAndRooms()[pri:5, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:35 IST" name="testGuestsAndRooms" finished-at="2024-04-04T15:44:35 IST" duration-ms="344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGuestsAndRooms -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:35 IST" name="beforeMethod" finished-at="2024-04-04T15:44:35 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -150,11 +154,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testGuestsAndRooms()[pri:5, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:48 IST" name="testGuestsAndRooms" finished-at="2024-04-04T02:48:49 IST" duration-ms="637" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testGuestsAndRooms -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:49 IST" name="getResult" finished-at="2024-04-04T02:48:49 IST" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:35 IST" name="getResult" finished-at="2024-04-04T15:44:35 IST" duration-ms="232" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -165,7 +165,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:49 IST" name="beforeMethod" finished-at="2024-04-04T02:48:49 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:35 IST" name="beforeMethod" finished-at="2024-04-04T15:44:35 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -176,11 +176,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testSearchButton()[pri:6, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:48:49 IST" name="testSearchButton" finished-at="2024-04-04T02:49:00 IST" duration-ms="10837" status="PASS">
+        <test-method signature="testSearchButton()[pri:6, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:35 IST" name="testSearchButton" finished-at="2024-04-04T15:44:35 IST" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSearchButton -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T02:49:00 IST" name="getResult" finished-at="2024-04-04T02:49:00 IST" duration-ms="259" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@4229bb3f]" started-at="2024-04-04T15:44:35 IST" name="getResult" finished-at="2024-04-04T15:45:14 IST" duration-ms="38393" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -193,7 +193,7 @@
         </test-method> <!-- getResult -->
       </class> <!-- tests.HomePageTest -->
       <class name="tests.BaseTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.BaseTest@4efc180e]" started-at="2024-04-04T02:48:31 IST" name="setUp" finished-at="2024-04-04T02:48:43 IST" duration-ms="12767" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.BaseTest@4efc180e]" started-at="2024-04-04T15:43:51 IST" name="setUp" finished-at="2024-04-04T15:44:31 IST" duration-ms="39123" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -204,17 +204,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BaseTest@4efc180e]" started-at="2024-04-04T02:49:26 IST" name="tearDown" finished-at="2024-04-04T02:49:33 IST" duration-ms="6363" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BaseTest@4efc180e]" started-at="2024-04-04T15:46:51 IST" name="tearDown" finished-at="2024-04-04T15:46:56 IST" duration-ms="4881" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.BaseTest -->
       <class name="tests.CruisesSearchPageTest">
-        <test-method is-config="true" signature="loading()[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:18 IST" name="loading" finished-at="2024-04-04T02:49:18 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="loading()[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T15:45:55 IST" name="loading" finished-at="2024-04-04T15:45:55 IST" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loading -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:18 IST" name="beforeMethod" finished-at="2024-04-04T02:49:18 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T15:45:55 IST" name="beforeMethod" finished-at="2024-04-04T15:45:55 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -225,11 +225,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="moveToCruisePage()[pri:1, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:18 IST" name="moveToCruisePage" finished-at="2024-04-04T02:49:20 IST" duration-ms="1739" status="PASS">
+        <test-method signature="moveToCruisePage()[pri:1, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T15:45:55 IST" name="moveToCruisePage" finished-at="2024-04-04T15:46:41 IST" duration-ms="45854" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveToCruisePage -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:20 IST" name="getResult" finished-at="2024-04-04T02:49:21 IST" duration-ms="708" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T15:46:41 IST" name="getResult" finished-at="2024-04-04T15:46:41 IST" duration-ms="350" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -240,7 +240,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:21 IST" name="beforeMethod" finished-at="2024-04-04T02:49:21 IST" duration-ms="1" status="PASS">
+        <test-method signature="testCruiseSelection()[pri:2, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T15:46:41 IST" name="testCruiseSelection" finished-at="2024-04-04T15:46:47 IST" duration-ms="5501" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCruiseSelection -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T15:46:41 IST" name="beforeMethod" finished-at="2024-04-04T15:46:41 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,11 +255,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testCruiseSelection()[pri:2, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:21 IST" name="testCruiseSelection" finished-at="2024-04-04T02:49:23 IST" duration-ms="2398" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCruiseSelection -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:23 IST" name="getResult" finished-at="2024-04-04T02:49:24 IST" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T15:46:47 IST" name="getResult" finished-at="2024-04-04T15:46:47 IST" duration-ms="212" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -266,7 +266,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:24 IST" name="beforeMethod" finished-at="2024-04-04T02:49:24 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T15:46:47 IST" name="beforeMethod" finished-at="2024-04-04T15:46:47 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -277,11 +277,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="findShipDetails()[pri:3, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:24 IST" name="findShipDetails" finished-at="2024-04-04T02:49:25 IST" duration-ms="1802" status="PASS">
+        <test-method signature="findShipDetails()[pri:3, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T15:46:47 IST" name="findShipDetails" finished-at="2024-04-04T15:46:51 IST" duration-ms="3493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findShipDetails -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:25 IST" name="getResult" finished-at="2024-04-04T02:49:26 IST" duration-ms="380" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T15:46:51 IST" name="getResult" finished-at="2024-04-04T15:46:51 IST" duration-ms="265" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -292,7 +292,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:26 IST" name="beforeMethod" finished-at="2024-04-04T02:49:26 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T15:46:51 IST" name="beforeMethod" finished-at="2024-04-04T15:46:51 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -303,11 +303,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="getShipDetails()[pri:4, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:26 IST" name="getShipDetails" finished-at="2024-04-04T02:49:26 IST" duration-ms="362" status="PASS">
+        <test-method signature="getShipDetails()[pri:4, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T15:46:51 IST" name="getShipDetails" finished-at="2024-04-04T15:46:51 IST" duration-ms="193" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getShipDetails -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T02:49:26 IST" name="getResult" finished-at="2024-04-04T02:49:26 IST" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@2fb3536e]" started-at="2024-04-04T15:46:51 IST" name="getResult" finished-at="2024-04-04T15:46:51 IST" duration-ms="147" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -320,11 +320,11 @@
         </test-method> <!-- getResult -->
       </class> <!-- tests.CruisesSearchPageTest -->
       <class name="tests.HotelsSearchPageTest">
-        <test-method is-config="true" signature="loading()[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:00 IST" name="loading" finished-at="2024-04-04T02:49:00 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="loading()[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:14 IST" name="loading" finished-at="2024-04-04T15:45:14 IST" duration-ms="24" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loading -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:00 IST" name="beforeMethod" finished-at="2024-04-04T02:49:00 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:14 IST" name="beforeMethod" finished-at="2024-04-04T15:45:14 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -335,11 +335,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testHotelSearchPageTitle()[pri:1, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:00 IST" name="testHotelSearchPageTitle" finished-at="2024-04-04T02:49:00 IST" duration-ms="20" status="PASS">
+        <test-method signature="testHotelSearchPageTitle()[pri:1, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:14 IST" name="testHotelSearchPageTitle" finished-at="2024-04-04T15:45:14 IST" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHotelSearchPageTitle -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:00 IST" name="getResult" finished-at="2024-04-04T02:49:01 IST" duration-ms="245" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:14 IST" name="getResult" finished-at="2024-04-04T15:45:14 IST" duration-ms="174" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -350,7 +350,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:01 IST" name="beforeMethod" finished-at="2024-04-04T02:49:01 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:14 IST" name="beforeMethod" finished-at="2024-04-04T15:45:14 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -361,11 +361,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="sortHotels()[pri:2, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:01 IST" name="sortHotels" finished-at="2024-04-04T02:49:02 IST" duration-ms="1101" status="PASS">
+        <test-method signature="sortHotels()[pri:2, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:14 IST" name="sortHotels" finished-at="2024-04-04T15:45:14 IST" duration-ms="503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortHotels -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:02 IST" name="getResult" finished-at="2024-04-04T02:49:02 IST" duration-ms="368" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:14 IST" name="getResult" finished-at="2024-04-04T15:45:15 IST" duration-ms="172" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -376,7 +376,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:02 IST" name="beforeMethod" finished-at="2024-04-04T02:49:02 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:15 IST" name="beforeMethod" finished-at="2024-04-04T15:45:15 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -387,11 +387,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="selectPropertyType()[pri:3, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:02 IST" name="selectPropertyType" finished-at="2024-04-04T02:49:07 IST" duration-ms="4966" status="PASS">
+        <test-method signature="selectPropertyType()[pri:3, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:15 IST" name="selectPropertyType" finished-at="2024-04-04T15:45:16 IST" duration-ms="928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectPropertyType -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:07 IST" name="getResult" finished-at="2024-04-04T02:49:07 IST" duration-ms="282" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:16 IST" name="getResult" finished-at="2024-04-04T15:45:16 IST" duration-ms="181" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -402,7 +402,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:07 IST" name="beforeMethod" finished-at="2024-04-04T02:49:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:16 IST" name="beforeMethod" finished-at="2024-04-04T15:45:16 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -413,11 +413,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="selectAmenity()[pri:4, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:07 IST" name="selectAmenity" finished-at="2024-04-04T02:49:13 IST" duration-ms="5335" status="PASS">
+        <test-method signature="selectAmenity()[pri:4, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:16 IST" name="selectAmenity" finished-at="2024-04-04T15:45:19 IST" duration-ms="3391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectAmenity -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:13 IST" name="getResult" finished-at="2024-04-04T02:49:13 IST" duration-ms="207" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:19 IST" name="getResult" finished-at="2024-04-04T15:45:19 IST" duration-ms="137" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -428,7 +428,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:13 IST" name="beforeMethod" finished-at="2024-04-04T02:49:13 IST" duration-ms="1" status="PASS">
+        <test-method signature="getHotelsDetails()[pri:5, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:19 IST" name="getHotelsDetails" finished-at="2024-04-04T15:45:21 IST" duration-ms="2085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getHotelsDetails -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:19 IST" name="beforeMethod" finished-at="2024-04-04T15:45:19 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -439,11 +443,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="getHotelsDetails()[pri:5, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:13 IST" name="getHotelsDetails" finished-at="2024-04-04T02:49:14 IST" duration-ms="1184" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getHotelsDetails -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:14 IST" name="getResult" finished-at="2024-04-04T02:49:14 IST" duration-ms="202" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:21 IST" name="getResult" finished-at="2024-04-04T15:45:22 IST" duration-ms="198" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -454,7 +454,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:14 IST" name="beforeMethod" finished-at="2024-04-04T02:49:14 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:22 IST" name="beforeMethod" finished-at="2024-04-04T15:45:22 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -465,11 +465,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="moveToHomePage()[pri:5, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:14 IST" name="moveToHomePage" finished-at="2024-04-04T02:49:18 IST" duration-ms="3849" status="PASS">
+        <test-method signature="moveToHomePage()[pri:5, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:22 IST" name="moveToHomePage" finished-at="2024-04-04T15:45:55 IST" duration-ms="33453" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveToHomePage -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T02:49:18 IST" name="getResult" finished-at="2024-04-04T02:49:18 IST" duration-ms="349" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@20ccf40b]" started-at="2024-04-04T15:45:55 IST" name="getResult" finished-at="2024-04-04T15:45:55 IST" duration-ms="230" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -482,13 +482,17 @@
         </test-method> <!-- getResult -->
       </class> <!-- tests.HotelsSearchPageTest -->
     </test> <!-- ChromeTest -->
-    <test started-at="2024-04-04T02:49:33 IST" name="EdgeTest" finished-at="2024-04-04T02:50:48 IST" duration-ms="74948">
+    <test started-at="2024-04-04T15:46:56 IST" name="EdgeTest" finished-at="2024-04-04T15:49:50 IST" duration-ms="173385">
       <class name="tests.HomePageTest">
-        <test-method is-config="true" signature="loading()[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:49 IST" name="loading" finished-at="2024-04-04T02:49:49 IST" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="loading()[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:36 IST" name="loading" finished-at="2024-04-04T15:47:36 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loading -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:49 IST" name="beforeMethod" finished-at="2024-04-04T02:49:49 IST" duration-ms="1" status="PASS">
+        <test-method signature="testHomePageTitle()[pri:1, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:36 IST" name="testHomePageTitle" finished-at="2024-04-04T15:47:36 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomePageTitle -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:36 IST" name="beforeMethod" finished-at="2024-04-04T15:47:36 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -499,11 +503,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testHomePageTitle()[pri:1, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:49 IST" name="testHomePageTitle" finished-at="2024-04-04T02:49:49 IST" duration-ms="33" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHomePageTitle -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:49 IST" name="getResult" finished-at="2024-04-04T02:49:50 IST" duration-ms="682" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:36 IST" name="getResult" finished-at="2024-04-04T15:47:36 IST" duration-ms="222" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -514,11 +514,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testSelectedDestination()[pri:2, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:50 IST" name="testSelectedDestination" finished-at="2024-04-04T02:49:52 IST" duration-ms="2053" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSelectedDestination -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:50 IST" name="beforeMethod" finished-at="2024-04-04T02:49:50 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:36 IST" name="beforeMethod" finished-at="2024-04-04T15:47:36 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -529,7 +525,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:52 IST" name="getResult" finished-at="2024-04-04T02:49:52 IST" duration-ms="254" status="PASS">
+        <test-method signature="testSelectedDestination()[pri:2, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:36 IST" name="testSelectedDestination" finished-at="2024-04-04T15:47:39 IST" duration-ms="2742" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectedDestination -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:39 IST" name="getResult" finished-at="2024-04-04T15:47:40 IST" duration-ms="458" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -540,7 +540,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:52 IST" name="beforeMethod" finished-at="2024-04-04T02:49:52 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:40 IST" name="beforeMethod" finished-at="2024-04-04T15:47:40 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -551,11 +551,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testCheckInDate()[pri:3, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:52 IST" name="testCheckInDate" finished-at="2024-04-04T02:49:53 IST" duration-ms="358" status="PASS">
+        <test-method signature="testCheckInDate()[pri:3, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:40 IST" name="testCheckInDate" finished-at="2024-04-04T15:47:40 IST" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckInDate -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:53 IST" name="getResult" finished-at="2024-04-04T02:49:53 IST" duration-ms="279" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:40 IST" name="getResult" finished-at="2024-04-04T15:47:40 IST" duration-ms="243" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -566,7 +566,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:53 IST" name="beforeMethod" finished-at="2024-04-04T02:49:53 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:40 IST" name="beforeMethod" finished-at="2024-04-04T15:47:40 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -577,11 +577,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testCheckOutDate()[pri:4, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:53 IST" name="testCheckOutDate" finished-at="2024-04-04T02:49:54 IST" duration-ms="565" status="PASS">
+        <test-method signature="testCheckOutDate()[pri:4, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:40 IST" name="testCheckOutDate" finished-at="2024-04-04T15:47:41 IST" duration-ms="695" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCheckOutDate -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:54 IST" name="getResult" finished-at="2024-04-04T02:49:54 IST" duration-ms="283" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:41 IST" name="getResult" finished-at="2024-04-04T15:47:41 IST" duration-ms="338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -592,7 +592,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:54 IST" name="beforeMethod" finished-at="2024-04-04T02:49:54 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:41 IST" name="beforeMethod" finished-at="2024-04-04T15:47:41 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -603,11 +603,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testGuestsAndRooms()[pri:5, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:54 IST" name="testGuestsAndRooms" finished-at="2024-04-04T02:49:55 IST" duration-ms="765" status="PASS">
+        <test-method signature="testGuestsAndRooms()[pri:5, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:41 IST" name="testGuestsAndRooms" finished-at="2024-04-04T15:47:42 IST" duration-ms="608" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGuestsAndRooms -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:55 IST" name="getResult" finished-at="2024-04-04T02:49:55 IST" duration-ms="284" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:42 IST" name="getResult" finished-at="2024-04-04T15:47:42 IST" duration-ms="324" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -618,11 +618,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testSearchButton()[pri:6, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:55 IST" name="testSearchButton" finished-at="2024-04-04T02:49:55 IST" duration-ms="278" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testSearchButton -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:55 IST" name="beforeMethod" finished-at="2024-04-04T02:49:55 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:42 IST" name="beforeMethod" finished-at="2024-04-04T15:47:42 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -633,7 +629,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T02:49:55 IST" name="getResult" finished-at="2024-04-04T02:50:07 IST" duration-ms="11460" status="PASS">
+        <test-method signature="testSearchButton()[pri:6, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:47:42 IST" name="testSearchButton" finished-at="2024-04-04T15:48:48 IST" duration-ms="65788" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchButton -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HomePageTest@31fa1761]" started-at="2024-04-04T15:48:48 IST" name="getResult" finished-at="2024-04-04T15:48:48 IST" duration-ms="217" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -646,7 +646,7 @@
         </test-method> <!-- getResult -->
       </class> <!-- tests.HomePageTest -->
       <class name="tests.BaseTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.BaseTest@729d991e]" started-at="2024-04-04T02:49:33 IST" name="setUp" finished-at="2024-04-04T02:49:49 IST" duration-ms="16644" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:tests.BaseTest@729d991e]" started-at="2024-04-04T15:46:56 IST" name="setUp" finished-at="2024-04-04T15:47:36 IST" duration-ms="40014" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -657,17 +657,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BaseTest@729d991e]" started-at="2024-04-04T02:50:40 IST" name="tearDown" finished-at="2024-04-04T02:50:48 IST" duration-ms="7315" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.BaseTest@729d991e]" started-at="2024-04-04T15:49:44 IST" name="tearDown" finished-at="2024-04-04T15:49:50 IST" duration-ms="5123" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- tests.BaseTest -->
       <class name="tests.CruisesSearchPageTest">
-        <test-method is-config="true" signature="loading()[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:32 IST" name="loading" finished-at="2024-04-04T02:50:32 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="loading()[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T15:49:32 IST" name="loading" finished-at="2024-04-04T15:49:32 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loading -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:32 IST" name="beforeMethod" finished-at="2024-04-04T02:50:32 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T15:49:32 IST" name="beforeMethod" finished-at="2024-04-04T15:49:32 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -678,11 +678,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="moveToCruisePage()[pri:1, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:32 IST" name="moveToCruisePage" finished-at="2024-04-04T02:50:34 IST" duration-ms="2246" status="PASS">
+        <test-method signature="moveToCruisePage()[pri:1, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T15:49:32 IST" name="moveToCruisePage" finished-at="2024-04-04T15:49:35 IST" duration-ms="2459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveToCruisePage -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:34 IST" name="getResult" finished-at="2024-04-04T02:50:35 IST" duration-ms="635" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T15:49:35 IST" name="getResult" finished-at="2024-04-04T15:49:35 IST" duration-ms="309" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -693,7 +693,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:35 IST" name="beforeMethod" finished-at="2024-04-04T02:50:35 IST" duration-ms="1" status="PASS">
+        <test-method signature="testCruiseSelection()[pri:2, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T15:49:35 IST" name="testCruiseSelection" finished-at="2024-04-04T15:49:39 IST" duration-ms="4088" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCruiseSelection -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T15:49:35 IST" name="beforeMethod" finished-at="2024-04-04T15:49:35 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -704,11 +708,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testCruiseSelection()[pri:2, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:35 IST" name="testCruiseSelection" finished-at="2024-04-04T02:50:37 IST" duration-ms="2240" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testCruiseSelection -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:37 IST" name="getResult" finished-at="2024-04-04T02:50:37 IST" duration-ms="298" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T15:49:39 IST" name="getResult" finished-at="2024-04-04T15:49:39 IST" duration-ms="215" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -719,7 +719,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:37 IST" name="beforeMethod" finished-at="2024-04-04T02:50:37 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T15:49:39 IST" name="beforeMethod" finished-at="2024-04-04T15:49:39 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -730,11 +730,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="findShipDetails()[pri:3, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:37 IST" name="findShipDetails" finished-at="2024-04-04T02:50:39 IST" duration-ms="1858" status="PASS">
+        <test-method signature="findShipDetails()[pri:3, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T15:49:39 IST" name="findShipDetails" finished-at="2024-04-04T15:49:44 IST" duration-ms="4461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- findShipDetails -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:39 IST" name="getResult" finished-at="2024-04-04T02:50:40 IST" duration-ms="453" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T15:49:44 IST" name="getResult" finished-at="2024-04-04T15:49:44 IST" duration-ms="271" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -745,7 +745,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:40 IST" name="beforeMethod" finished-at="2024-04-04T02:50:40 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T15:49:44 IST" name="beforeMethod" finished-at="2024-04-04T15:49:44 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -756,11 +756,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="getShipDetails()[pri:4, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:40 IST" name="getShipDetails" finished-at="2024-04-04T02:50:40 IST" duration-ms="571" status="PASS">
+        <test-method signature="getShipDetails()[pri:4, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T15:49:44 IST" name="getShipDetails" finished-at="2024-04-04T15:49:44 IST" duration-ms="203" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getShipDetails -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T02:50:40 IST" name="getResult" finished-at="2024-04-04T02:50:40 IST" duration-ms="216" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.CruisesSearchPageTest@32502377]" started-at="2024-04-04T15:49:44 IST" name="getResult" finished-at="2024-04-04T15:49:44 IST" duration-ms="146" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -773,11 +773,15 @@
         </test-method> <!-- getResult -->
       </class> <!-- tests.CruisesSearchPageTest -->
       <class name="tests.HotelsSearchPageTest">
-        <test-method is-config="true" signature="loading()[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:07 IST" name="loading" finished-at="2024-04-04T02:50:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="loading()[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:48 IST" name="loading" finished-at="2024-04-04T15:48:48 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loading -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:07 IST" name="beforeMethod" finished-at="2024-04-04T02:50:07 IST" duration-ms="0" status="PASS">
+        <test-method signature="testHotelSearchPageTitle()[pri:1, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:48 IST" name="testHotelSearchPageTitle" finished-at="2024-04-04T15:48:48 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHotelSearchPageTitle -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:48 IST" name="beforeMethod" finished-at="2024-04-04T15:48:48 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -788,11 +792,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testHotelSearchPageTitle()[pri:1, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:07 IST" name="testHotelSearchPageTitle" finished-at="2024-04-04T02:50:07 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testHotelSearchPageTitle -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:07 IST" name="getResult" finished-at="2024-04-04T02:50:07 IST" duration-ms="243" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:48 IST" name="getResult" finished-at="2024-04-04T15:48:48 IST" duration-ms="211" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -803,7 +803,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:07 IST" name="beforeMethod" finished-at="2024-04-04T02:50:07 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:48 IST" name="beforeMethod" finished-at="2024-04-04T15:48:48 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -814,11 +814,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="sortHotels()[pri:2, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:07 IST" name="sortHotels" finished-at="2024-04-04T02:50:08 IST" duration-ms="1065" status="PASS">
+        <test-method signature="sortHotels()[pri:2, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:48 IST" name="sortHotels" finished-at="2024-04-04T15:48:49 IST" duration-ms="577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sortHotels -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:08 IST" name="getResult" finished-at="2024-04-04T02:50:09 IST" duration-ms="820" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:49 IST" name="getResult" finished-at="2024-04-04T15:48:49 IST" duration-ms="255" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -829,7 +829,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:09 IST" name="beforeMethod" finished-at="2024-04-04T02:50:09 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:49 IST" name="beforeMethod" finished-at="2024-04-04T15:48:49 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -840,11 +840,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="selectPropertyType()[pri:3, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:09 IST" name="selectPropertyType" finished-at="2024-04-04T02:50:20 IST" duration-ms="11509" status="PASS">
+        <test-method signature="selectPropertyType()[pri:3, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:49 IST" name="selectPropertyType" finished-at="2024-04-04T15:48:50 IST" duration-ms="1063" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectPropertyType -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:20 IST" name="getResult" finished-at="2024-04-04T02:50:21 IST" duration-ms="317" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:50 IST" name="getResult" finished-at="2024-04-04T15:48:50 IST" duration-ms="167" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -855,7 +855,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:21 IST" name="beforeMethod" finished-at="2024-04-04T02:50:21 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:50 IST" name="beforeMethod" finished-at="2024-04-04T15:48:50 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -866,11 +866,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="selectAmenity()[pri:4, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:21 IST" name="selectAmenity" finished-at="2024-04-04T02:50:26 IST" duration-ms="5216" status="PASS">
+        <test-method signature="selectAmenity()[pri:4, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:50 IST" name="selectAmenity" finished-at="2024-04-04T15:48:54 IST" duration-ms="3638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectAmenity -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:26 IST" name="getResult" finished-at="2024-04-04T02:50:26 IST" duration-ms="261" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:54 IST" name="getResult" finished-at="2024-04-04T15:48:54 IST" duration-ms="181" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -881,7 +881,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:26 IST" name="beforeMethod" finished-at="2024-04-04T02:50:26 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:54 IST" name="beforeMethod" finished-at="2024-04-04T15:48:54 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -892,11 +892,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="getHotelsDetails()[pri:5, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:26 IST" name="getHotelsDetails" finished-at="2024-04-04T02:50:26 IST" duration-ms="311" status="PASS">
+        <test-method signature="getHotelsDetails()[pri:5, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:54 IST" name="getHotelsDetails" finished-at="2024-04-04T15:48:56 IST" duration-ms="2134" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getHotelsDetails -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:26 IST" name="getResult" finished-at="2024-04-04T02:50:27 IST" duration-ms="253" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:56 IST" name="getResult" finished-at="2024-04-04T15:48:57 IST" duration-ms="245" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -907,7 +907,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:27 IST" name="beforeMethod" finished-at="2024-04-04T02:50:27 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:57 IST" name="beforeMethod" finished-at="2024-04-04T15:48:57 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -918,11 +918,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="moveToHomePage()[pri:5, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:27 IST" name="moveToHomePage" finished-at="2024-04-04T02:50:31 IST" duration-ms="4735" status="PASS">
+        <test-method signature="moveToHomePage()[pri:5, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:48:57 IST" name="moveToHomePage" finished-at="2024-04-04T15:49:32 IST" duration-ms="35353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- moveToHomePage -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T02:50:31 IST" name="getResult" finished-at="2024-04-04T02:50:32 IST" duration-ms="351" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:tests.HotelsSearchPageTest@957e06]" started-at="2024-04-04T15:49:32 IST" name="getResult" finished-at="2024-04-04T15:49:32 IST" duration-ms="242" status="PASS">
           <params>
             <param index="0">
               <value>

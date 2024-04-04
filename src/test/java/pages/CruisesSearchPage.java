@@ -38,8 +38,10 @@ public class CruisesSearchPage extends BasePage{
 		PageFactory.initElements(driver, this);
 	}
 	
-	public boolean selectRandomCruise() {
+	public boolean selectRandomCruise() throws InterruptedException {
 		jse.executeScript("arguments[0].scrollIntoView(true)", popularCruisesElement);
+		Thread.sleep(2000);
+		
 		int totalCruises = popularCruises.size();
 
 		double idx = Math.random()*totalCruises;
@@ -57,8 +59,11 @@ public class CruisesSearchPage extends BasePage{
 		
 	}
 	
-	public boolean clickShipDetailsLink() {
+	public boolean clickShipDetailsLink() throws InterruptedException {
 		jse.executeScript("arguments[0].scrollIntoView(true)", shipDetailsButtonElement);
+		
+		Thread.sleep(2000);
+		
 		jse.executeScript("arguments[0].click()", shipDetailsButtonElement);
 		String parentWinHandle = driver.getWindowHandle();
 		for(String winHandle : driver.getWindowHandles()) {
